@@ -1,0 +1,10 @@
+# === CORE (todas las plataformas) ===
+requests          # VT API, HIBP, Hunter
+cryptography      # AES para cookies Linux
+
+# === WINDOWS ONLY ===
+pywin32           # Windows DPAPI (solo Win)
+
+# === OPTIONAL / ADVANCED ===
+pycryptodome      # fallback AES
+scapy             # opcional para netsniff avanzado
