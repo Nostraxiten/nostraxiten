@@ -31,7 +31,7 @@ El script principal `nostraxiten.py` carga un menú interactivo desde el que se 
 ### 1. Preparar el repositorio
 
 ```powershell
-Set-Location C:\Users\nostraxiten\Documents\nostraxiten
+Set-Location C:\Users\tuUsuario\Documents\nostraxiten
 ```
 
 ### 2. Windows
