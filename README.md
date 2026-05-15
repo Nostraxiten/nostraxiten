@@ -127,6 +127,3 @@ y ejecuta los comandos adecuados para instalar paquetes de sistema y dependencia
 
 Se recomienda revisar el código de los módulos existentes y añadir nuevas integraciones siguiendo la estructura de `nostraxiten/modules/nox` y `nostraxiten/modules/classic`.
 
-## Licencia
-
-Incluye tu licencia preferida aquí.
