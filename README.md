@@ -2,7 +2,9 @@
 
 Nostraxiten es una herramienta de auditoría orientada a OSINT, forense y análisis de seguridad. Su interfaz de consola centraliza el acceso a módulos de investigación, análisis de red, extracción de artefactos y herramientas de diagnóstico.
 
-## Qué es
+## ¿Qué es?
+
+<img width="1887" height="741" alt="WhatsApp Image 2026-05-16 at 04 39 45" src="https://github.com/user-attachments/assets/2958866c-c2ca-4c53-b74f-76ad429991f2" />
 
 Nostraxiten ofrece un framework modular que reúne:
 
