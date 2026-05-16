@@ -51,6 +51,7 @@ También puedes instalar manualmente los componentes Python necesarios:
 ```powershell
 python -m pip install --upgrade pip
 python -m pip install requests colorama cryptography pycryptodome scapy pywin32
+git clone https://github.com/Nostraxiten/nostraxiten.git // git previamente instalado.
 ```
 
 Para las herramientas externas, descarga e instala manualmente:
@@ -78,6 +79,7 @@ sudo apt update
 sudo apt install -y python3 python3-pip git nmap curl wget tshark binwalk exiftool steghide foremost bulk-extractor chkrootkit lynis
 python3 -m pip install --upgrade pip
 python3 -m pip install requests colorama cryptography pycryptodome scapy
+git clone https://github.com/Nostraxiten/nostraxiten.git
 ```
 
 ### 4. Android (Termux)
@@ -97,6 +99,7 @@ pkg update && pkg upgrade
 pkg install python git nmap curl wget binwalk exiftool steghide foremost
 python3 -m pip install --upgrade pip
 python3 -m pip install requests colorama cryptography pycryptodome scapy
+git clone https://github.com/Nostraxiten/nostraxiten.git
 ```
 
 ## Uso
