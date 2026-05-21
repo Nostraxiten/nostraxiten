@@ -1,6 +1,8 @@
-# Nostraxiten v1.0
+# Nostraxiten v1.5
 
 Nostraxiten es una herramienta de auditoría orientada a OSINT, forense y análisis de seguridad. Su interfaz de consola centraliza el acceso a módulos de investigación, análisis de red, extracción de artefactos y herramientas de diagnóstico.
+
+> Actualización 1.5: sistema potenciado y mejoras de interfaz para una experiencia más fluida.
 
 ## ¿Qué es?
 

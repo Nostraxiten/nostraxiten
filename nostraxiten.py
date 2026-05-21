@@ -2,6 +2,7 @@ import os
 import sys
 import time
 import subprocess
+import shutil
 
 # 1. Error de Unicode en Windows solucionado:
 if hasattr(sys.stdout, "reconfigure"):
@@ -33,14 +34,53 @@ def print_banner():
   +#+  +#+#+# +#+    +#+        +#+    +#+     +#+    +#+ +#+     +#+  +#+  +#+      +#+         +#+     +#+        +#+  +#+#+#     
  #+#   #+#+# #+#    #+# #+#    #+#    #+#     #+#    #+# #+#     #+# #+#    #+#     #+#         #+#     #+#        #+#   #+#+#      
 ###    ####  ########   ########     ###     ###    ### ###     ### ###    ### ###########     ###     ########## ###    ####       
-    {d}                                
+    {d}
     """
     print(banner)
     print(f"{r}[{w}I{r}]{w} Info                                                                 {w}Next {r}[{w}N{r}]")
     print(f"{r}[{w}S{r}]{w} Site")
-    
-    print(f"      {r}Forense & Recon (NOX){w}           {r}Classic OSINT & Tools{w}           {r}Utilities & Output{w}")
-    print(f"      {r}---------------------{w}           {r}---------------------{w}           {r}------------------{w}")
+
+def print_menu_columns(columns):
+    r = Fore.RED + Style.BRIGHT
+    w = Fore.WHITE + Style.BRIGHT
+
+    headers = ("NOX / FORENSE", "OSINT / RED", "ANALISIS SISTEMA")
+    gap = 8
+    min_col_width = 26
+    left_shift = 18
+    col_widths = [
+        max(min_col_width, len(headers[i]), *(len(f"[{num}] {name}") for num, name, _ in col))
+        for i, col in enumerate(columns)
+    ]
+    block_width = sum(col_widths) + gap * (len(columns) - 1)
+    term_width = shutil.get_terminal_size((100, 24)).columns
+    indent = " " * max(4, ((term_width - block_width) // 2) - left_shift)
+
+    def color_header(text, width):
+        return f"{r}{text.center(width)}{w}"
+
+    def color_rule(width):
+        return f"{r}{('-' * min(width, 16)).center(width)}{w}"
+
+    def color_option(item, width):
+        if not item:
+            return " " * width
+        num, text, _ = item
+        plain = f"[{num}] {text}"
+        padding = " " * max(0, width - len(plain))
+        return f"{r}[{w}{num}{r}]{w} {text}{padding}"
+
+    print()
+    print(indent + (" " * gap).join(color_header(headers[i], col_widths[i]) for i in range(len(columns))))
+    print(indent + (" " * gap).join(color_rule(col_widths[i]) for i in range(len(columns))))
+
+    max_rows = max(len(col) for col in columns)
+    for row in range(max_rows):
+        cells = [
+            color_option(columns[i][row] if row < len(columns[i]) else None, col_widths[i])
+            for i in range(len(columns))
+        ]
+        print(indent + (" " * gap).join(cells))
 
 def show_install_info(num, name):
     r = Fore.RED + Style.BRIGHT
@@ -48,7 +88,7 @@ def show_install_info(num, name):
     d = Fore.LIGHTBLACK_EX
     cy = Fore.CYAN + Style.BRIGHT
 
-    # Base de datos de instalación por herramienta (10-27)
+    # Base de datos de instalación por herramienta externa.
     tools_data = {
         "10": {"lin": "sudo apt install nmap", "win": "https://nmap.org/download.html", "tmx": "pkg install nmap"},
         "11": {"lin": "sudo apt install tshark", "win": "https://www.wireshark.org/", "tmx": "pkg install tshark"},
@@ -59,14 +99,11 @@ def show_install_info(num, name):
         "16": {"lin": "sudo apt install steghide", "win": "https://github.com/StefanoDeVuono/steghide", "tmx": "pkg install steghide"},
         "17": {"lin": "sudo apt install binwalk", "win": "https://github.com/ReFirmLabs/binwalk", "tmx": "pkg install binwalk"},
         "18": {"lin": "sudo apt install libimage-exiftool-perl", "win": "https://exiftool.org/", "tmx": "pkg install exiftool"},
-        "20": {"lin": "Nativo (Python)", "win": "Nativo (Python)", "tmx": "Nativo (Python)"},
-        "21": {"lin": "Nativo (Python)", "win": "Nativo (Python)", "tmx": "Nativo (Python)"},
-        "22": {"lin": "Nativo (Python)", "win": "Nativo (Python)", "tmx": "Nativo (Python)"},
-        "23": {"lin": "pip install volatility3", "win": "pip install volatility3", "tmx": "https://github.com/volatilityfoundation/volatility3"},
-        "24": {"lin": "sudo apt install foremost", "win": "https://github.com/jonstewart/foremost", "tmx": "pkg install foremost"},
-        "25": {"lin": "sudo apt install bulk-extractor", "win": "https://github.com/simsong/bulk_extractor", "tmx": "https://github.com/simsong/bulk_extractor"},
-        "26": {"lin": "sudo apt install lynis", "win": "https://github.com/CISOfy/lynis", "tmx": "https://github.com/CISOfy/lynis"},
-        "27": {"lin": "sudo apt install chkrootkit", "win": "https://github.com/chkrootkit/chkrootkit", "tmx": "https://github.com/chkrootkit/chkrootkit"},
+        "22": {"lin": "pip install volatility3", "win": "pip install volatility3", "tmx": "https://github.com/volatilityfoundation/volatility3"},
+        "23": {"lin": "sudo apt install foremost", "win": "https://github.com/jonstewart/foremost", "tmx": "pkg install foremost"},
+        "24": {"lin": "sudo apt install bulk-extractor", "win": "https://github.com/simsong/bulk_extractor", "tmx": "https://github.com/simsong/bulk_extractor"},
+        "25": {"lin": "sudo apt install lynis", "win": "https://github.com/CISOfy/lynis", "tmx": "https://github.com/CISOfy/lynis"},
+        "26": {"lin": "sudo apt install chkrootkit", "win": "https://github.com/chkrootkit/chkrootkit", "tmx": "https://github.com/chkrootkit/chkrootkit"},
     }
 
     info = tools_data.get(num, {"lin": "Instalación manual", "win": "GitHub", "tmx": "GitHub"})
@@ -97,60 +134,6 @@ def show_install_info(num, name):
     print(f"\n      {d}Presiona ENTER para intentar ejecutar la herramienta...")
     input()
 
-def show_install_info(num, name):
-    r = Fore.RED + Style.BRIGHT
-    w = Fore.WHITE + Style.BRIGHT
-    d = Fore.LIGHTBLACK_EX
-    cy = Fore.CYAN + Style.BRIGHT
-
-    # Base de datos de instalación por herramienta
-    tools_data = {
-        "10": {"lin": "sudo apt install nmap", "win": "https://nmap.org/download.html", "tmx": "pkg install nmap"},
-        "11": {"lin": "sudo apt install tshark", "win": "https://www.wireshark.org/", "tmx": "pkg install tshark"},
-        "12": {"lin": "pip install theHarvester", "win": "pip install theHarvester", "tmx": "pip install theHarvester"},
-        "13": {"lin": "pip install sherlock-project", "win": "pip install sherlock-project", "tmx": "pip install sherlock-project"},
-        "14": {"lin": "pip install recon-ng", "win": "pip install recon-ng", "tmx": "pip install recon-ng"},
-        "15": {"lin": "pip install spiderfoot", "win": "pip install spiderfoot", "tmx": "pip install spiderfoot"},
-        "16": {"lin": "sudo apt install steghide", "win": "https://github.com/StefanoDeVuono/steghide", "tmx": "pkg install steghide"},
-        "17": {"lin": "sudo apt install binwalk", "win": "https://github.com/ReFirmLabs/binwalk", "tmx": "pkg install binwalk"},
-        "18": {"lin": "sudo apt install libimage-exiftool-perl", "win": "https://exiftool.org/", "tmx": "pkg install exiftool"},
-        "20": {"lin": "Nativo (Python)", "win": "Nativo (Python)", "tmx": "Nativo (Python)"},
-        "21": {"lin": "Nativo (Python)", "win": "Nativo (Python)", "tmx": "Nativo (Python)"},
-        "22": {"lin": "Nativo (Python)", "win": "Nativo (Python)", "tmx": "Nativo (Python)"},
-        "23": {"lin": "pip install volatility3", "win": "pip install volatility3", "tmx": "https://github.com/volatilityfoundation/volatility3"},
-        "24": {"lin": "sudo apt install foremost", "win": "https://github.com/jonstewart/foremost", "tmx": "pkg install foremost"},
-        "25": {"lin": "sudo apt install bulk-extractor", "win": "https://github.com/simsong/bulk_extractor", "tmx": "https://github.com/simsong/bulk_extractor"},
-        "26": {"lin": "sudo apt install lynis", "win": "https://github.com/CISOfy/lynis", "tmx": "https://github.com/CISOfy/lynis"},
-        "27": {"lin": "sudo apt install chkrootkit", "win": "https://github.com/chkrootkit/chkrootkit", "tmx": "https://github.com/chkrootkit/chkrootkit"},
-    }
-
-    info = tools_data.get(num, {"lin": "Instalación manual", "win": "GitHub", "tmx": "GitHub"})
-    
-    clear_screen()
-    print_banner()
-    print(f"\n      {r}--- GUÍA DE INSTALACIÓN: {w}{name} {r}---")
-    print(f"      {d}Asegúrate de tener instalada la herramienta antes de continuar.{w}\n")
-
-    # Linux
-    if info["lin"].startswith("http"):
-        print(f"      {r}[Linux]{w}   Soporte via: {cy}{info['lin']}")
-    else:
-        print(f"      {r}[Linux]{w}   Comando: {r}{info['lin']}")
-
-    # Windows
-    if info["win"].startswith("http"):
-        print(f"      {r}[Windows]{w} Soporte via: {cy}{info['win']}")
-    else:
-        print(f"      {r}[Windows]{w} Comando: {r}{info['win']}")
-
-    # Termux
-    if info["tmx"].startswith("http"):
-        print(f"      {r}[Termux]{w}  Soporte via: {cy}{info['tmx']}")
-    else:
-        print(f"      {r}[Termux]{w}  Comando: {r}{info['tmx']}")
-
-    print(f"\n      {d}Presiona ENTER para intentar ejecutar la herramienta...")
-    input()
 
 def install_dependencies():
     r = Fore.RED + Style.BRIGHT
@@ -217,7 +200,7 @@ def main():
             ("06", "Network Sniffer", "nostraxiten/modules/nox/netsniff.py"),
             ("07", "Port Scanner", "nostraxiten/modules/nox/portscan.py"),
             ("08", "File Caver", "nostraxiten/modules/nox/filecaver.py"),
-            ("09", "Steg Detect", "nostraxiten/modules/nox/stegdetect.py")
+            ("09", "Steg Detect", "nostraxiten/modules/nox/stegdetect.py"),
         ]
         
         col2 = [
@@ -229,41 +212,27 @@ def main():
             ("15", "Spiderfoot", "nostraxiten/modules/classic/spiderfoot.py"),
             ("16", "Steghide", "nostraxiten/modules/classic/steghide.py"),
             ("17", "Binwalk", "nostraxiten/modules/classic/binwalk.py"),
-            ("18", "Exiftool", "nostraxiten/modules/classic/exiftool.py")
+            ("18", "Exiftool", "nostraxiten/modules/classic/exiftool.py"),
         ]
         
         col3 = [
-            ("20", "Timeline Gen", "nostraxiten/modules/nox/timeline.py"),
-            ("21", "Generate Report", "nostraxiten/modules/nox/report.py"),
-            ("22", "Binary Analyzer", "nostraxiten/modules/nox/binary.py"),
-            ("23", "Volatility", "nostraxiten/modules/classic/volatility.py"),
-            ("24", "Foremost", "nostraxiten/modules/classic/foremost.py"),
-            ("25", "Bulk Extractor", "nostraxiten/modules/classic/bulk_extractor.py"),
-            ("26", "Lynis Audit", "nostraxiten/modules/classic/lynis.py"),
-            ("27", "Chkrootkit", "nostraxiten/modules/classic/chkrootkit.py")
+            ("19", "Timeline Gen", "nostraxiten/modules/nox/timeline.py"),
+            ("20", "Generate Report", "nostraxiten/modules/nox/report.py"),
+            ("21", "Binary Analyzer", "nostraxiten/modules/nox/binary.py"),
+            ("22", "Volatility", "nostraxiten/modules/classic/volatility.py"),
+            ("23", "Foremost", "nostraxiten/modules/classic/foremost.py"),
+            ("24", "Bulk Extractor", "nostraxiten/modules/classic/bulk_extractor.py"),
+            ("25", "Lynis Audit", "nostraxiten/modules/classic/lynis.py"),
+            ("26", "Chkrootkit", "nostraxiten/modules/classic/chkrootkit.py")
         ]
         
         all_options = {item[0]: item for item in col1 + col2 + col3}
         
-        max_rows = max(len(col1), len(col2), len(col3))
-        for i in range(max_rows):
-            c1_num, c1_text, _ = col1[i] if i < len(col1) else ("", "", "")
-            c2_num, c2_text, _ = col2[i] if i < len(col2) else ("", "", "")
-            c3_num, c3_text, _ = col3[i] if i < len(col3) else ("", "", "")
-            
-            str_c1 = f"{r}[{w}{c1_num}{r}]{w} {c1_text}" if c1_num else ""
-            str_c2 = f"{r}[{w}{c2_num}{r}]{w} {c2_text}" if c2_num else ""
-            str_c3 = f"{r}[{w}{c3_num}{r}]{w} {c3_text}" if c3_num else ""
-            
-            plain_c1 = f"[{c1_num}] {c1_text}" if c1_num else ""
-            plain_c2 = f"[{c2_num}] {c2_text}" if c2_num else ""
-            
-            pad1 = " " * (34 - len(plain_c1)) if plain_c1 else " " * 34
-            pad2 = " " * (32 - len(plain_c2)) if plain_c2 else " " * 32
-            
-            print(f"      {str_c1}{pad1}{str_c2}{pad2}{str_c3}")
+        print_menu_columns((col1, col2, col3))
 
-        print(f"\n      {r}[{w}99{r}]{w} Install Dependencies (Win/Lin/Android)      {r}[{w}00{r}]{w} Exit")
+        footer = f"[99] Install Dependencies (Win/Lin/Android)      [00] Exit"
+        footer_indent = " " * max(4, ((shutil.get_terminal_size((100, 24)).columns - len(footer)) // 2) - 18)
+        print(f"\n{footer_indent}{r}[{w}99{r}]{w} Install Dependencies (Win/Lin/Android)      {r}[{w}00{r}]{w} Exit")
         print()
         
         try:
@@ -281,7 +250,7 @@ def main():
             install_dependencies()
         elif choice in ['I', 'i']:
             print(f"\n{w}[i] Nostraxiten Framework - Advanced Forensic & OSINT Suite")
-            print(f"{w}[i] Version 1.0 - Modular Edition")
+            print(f"{w}[i] Version 1.5 - Modular Edition")
             input(f"\n{d}Press Enter to return...")
         elif choice in ['S', 's']:
             print(f"\n{w}[i] Github: https://github.com/nostraxiten/noxforens")
@@ -289,8 +258,8 @@ def main():
         elif choice in all_options:
             module_num, module_name, module_path = all_options[choice]
             
-            # Si es de Nmap (10) en adelante, mostrar info de instalación
-            if int(choice) >= 10:
+            # Mostrar guía solo para herramientas externas.
+            if choice in ["10", "11", "12", "13", "14", "15", "16", "17", "18", "22", "23", "24", "25", "26"]:
                 show_install_info(choice, module_name)
                 
             print(f"\n{w}[*] Iniciando {r}{module_name}{w}...")

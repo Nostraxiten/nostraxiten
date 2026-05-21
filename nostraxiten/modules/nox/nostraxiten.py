@@ -2,6 +2,7 @@ import os
 import sys
 import time
 import subprocess
+import shutil
 
 # 1. Error de Unicode en Windows solucionado:
 if hasattr(sys.stdout, "reconfigure"):
@@ -38,9 +39,48 @@ def print_banner():
     print(banner)
     print(f"{r}[{w}I{r}]{w} Info                                                                 {w}Next {r}[{w}N{r}]")
     print(f"{r}[{w}S{r}]{w} Site")
-    
-    print(f"      {r}Forense & Recon (NOX){w}           {r}Classic OSINT & Tools{w}           {r}Utilities & Output{w}")
-    print(f"      {r}---------------------{w}           {r}---------------------{w}           {r}------------------{w}")
+
+def print_menu_columns(columns):
+    r = Fore.RED + Style.BRIGHT
+    w = Fore.WHITE + Style.BRIGHT
+
+    headers = ("NOX / FORENSE", "OSINT / RED", "ANALISIS SISTEMA")
+    gap = 8
+    min_col_width = 26
+    left_shift = 18
+    col_widths = [
+        max(min_col_width, len(headers[i]), *(len(f"[{num}] {name}") for num, name, _ in col))
+        for i, col in enumerate(columns)
+    ]
+    block_width = sum(col_widths) + gap * (len(columns) - 1)
+    term_width = shutil.get_terminal_size((100, 24)).columns
+    indent = " " * max(4, ((term_width - block_width) // 2) - left_shift)
+
+    def color_header(text, width):
+        return f"{r}{text.center(width)}{w}"
+
+    def color_rule(width):
+        return f"{r}{('-' * min(width, 16)).center(width)}{w}"
+
+    def color_option(item, width):
+        if not item:
+            return " " * width
+        num, text, _ = item
+        plain = f"[{num}] {text}"
+        padding = " " * max(0, width - len(plain))
+        return f"{r}[{w}{num}{r}]{w} {text}{padding}"
+
+    print()
+    print(indent + (" " * gap).join(color_header(headers[i], col_widths[i]) for i in range(len(columns))))
+    print(indent + (" " * gap).join(color_rule(col_widths[i]) for i in range(len(columns))))
+
+    max_rows = max(len(col) for col in columns)
+    for row in range(max_rows):
+        cells = [
+            color_option(columns[i][row] if row < len(columns[i]) else None, col_widths[i])
+            for i in range(len(columns))
+        ]
+        print(indent + (" " * gap).join(cells))
 
 def main():
     while True:
@@ -77,20 +117,25 @@ def main():
         ]
         
         col3 = [
-            ("20", "Timeline Gen", "modules/nox/timeline.py"),
-            ("21", "Generate Report", "modules/nox/report.py"),
-            ("22", "Binary Analyzer", "modules/nox/binary.py"),
-            ("23", "Volatility", "modules/classic/volatility.py"),
-            ("24", "Foremost", "modules/classic/foremost.py"),
-            ("25", "Bulk Extractor", "modules/classic/bulk_extractor.py"),
-            ("26", "Lynis Audit", "modules/classic/lynis.py"),
-            ("27", "Chkrootkit", "modules/classic/chkrootkit.py")
+            ("19", "Timeline Gen", "modules/nox/timeline.py"),
+            ("20", "Generate Report", "modules/nox/report.py"),
+            ("21", "Binary Analyzer", "modules/nox/binary.py"),
+            ("22", "Volatility", "modules/classic/volatility.py"),
+            ("23", "Foremost", "modules/classic/foremost.py"),
+            ("24", "Bulk Extractor", "modules/classic/bulk_extractor.py"),
+            ("25", "Lynis Audit", "modules/classic/lynis.py"),
+            ("26", "Chkrootkit", "modules/classic/chkrootkit.py")
         ]
         
         # Combinar todas las opciones para la búsqueda fácil
         all_options = {item[0]: item for item in col1 + col2 + col3}
         
-        max_rows = max(len(col1), len(col2), len(col3))
+        print_menu_columns((col1, col2, col3))
+        footer = "[00] Exit"
+        footer_indent = " " * max(4, ((shutil.get_terminal_size((100, 24)).columns - len(footer)) // 2) - 18)
+        print(f"\n{footer_indent}{r}[{w}00{r}]{w} Exit")
+        print()
+        max_rows = 0
         for i in range(max_rows):
             # Obtener datos
             c1_num, c1_text, _ = col1[i] if i < len(col1) else ("", "", "")
@@ -111,11 +156,13 @@ def main():
             
             print(f"      {str_c1}{pad1}{str_c2}{pad2}{str_c3}")
 
-        print(f"\n      {r}[{w}00{r}]{w} Exit")
-        print()
+        
         
         try:
             choice = input(f"{r}nostraxiten{w}@{r}root{w}:~# ").strip()
+            # Normalizar entrada: si es un solo dígito (1-9), añadir 0 al inicio
+            if choice.isdigit() and len(choice) == 1:
+                choice = choice.zfill(2)
         except KeyboardInterrupt:
             break
             
@@ -124,7 +171,7 @@ def main():
             break
         elif choice in ['I', 'i']:
             print(f"\n{w}[i] Nostraxiten Framework - Advanced Forensic & OSINT Suite")
-            print(f"{w}[i] Version 1.0 - Modular Edition")
+            print(f"{w}[i] Version 1.5 - Modular Edition")
             input(f"\n{d}Press Enter to return...")
         elif choice in ['S', 's']:
             print(f"\n{w}[i] Github: https://github.com/nostraxiten/noxforens")
