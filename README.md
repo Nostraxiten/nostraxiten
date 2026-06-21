@@ -97,8 +97,8 @@ Elige la opción `99` para instalar dependencias.
 Manual:
 
 ```bash
-pkg update && pkg upgrade
-pkg install python git nmap curl wget binwalk exiftool steghide foremost
+pkg update && pkg upgrade -y
+pkg install python git nmap curl wget binwalk exiftool steghide foremost -y
 python3 -m pip install --upgrade pip
 python3 -m pip install requests colorama cryptography pycryptodome scapy
 git clone https://github.com/Nostraxiten/nostraxiten.git
