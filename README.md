@@ -1,136 +1,195 @@
-# Nostraxiten v1.5
+# Nostraxiten
+> **Framework Modular de Auditoría de Seguridad, OSINT y Análisis Forense Digital**
 
-Nostraxiten es una herramienta de auditoría orientada a OSINT, forense y análisis de seguridad. Su interfaz de consola centraliza el acceso a módulos de investigación, análisis de red, extracción de artefactos y herramientas de diagnóstico.
+[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Platform Support](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20Android%20(Termux)-lightgrey.svg?style=for-the-badge&logo=target)](https://github.com/Nostraxiten/nostraxiten)
+[![Version](https://img.shields.io/badge/Version-v1.5-orange.svg?style=for-the-badge&logo=github)](https://github.com/Nostraxiten/nostraxiten/releases)
+[![Security](https://img.shields.io/badge/Security-OSINT%20%26%20Forensics-red.svg?style=for-the-badge&logo=keycdn&logoColor=white)](#)
 
-> Actualización 1.5: sistema potenciado y mejoras de interfaz para una experiencia más fluida.
+---
 
-## ¿Qué es?
+## Descripción General
 
-<img width="1538" height="752" alt="Captura de pantalla 2026-05-21 133040" src="https://github.com/user-attachments/assets/dcc4590f-d4d4-4871-ac4f-2a01b1acb4b6" />
+**Nostraxiten** es un framework de auditoría y análisis de seguridad de código abierto diseñado para centralizar y automatizar tareas esenciales de **OSINT**, **análisis forense digital (DFIR)**, **reconocimiento de red** y **diagnóstico de sistemas**. 
 
-Nostraxiten ofrece un framework modular que reúne:
+A través de una interfaz interactiva de consola (CLI) optimizada, Nostraxiten unifica potentes herramientas de la industria bajo un único entorno modular, permitiendo a analistas de seguridad, investigadores y entusiastas ejecutar auditorías complejas con facilidad.
 
-- análisis de red y escaneo con `nmap`, `tshark`, `theHarvester`, `recon-ng`, `spiderfoot`
-- análisis forense local con `volatility`, `foremost`, `bulk_extractor`, `chkrootkit`, `lynis`
-- capacidades de análisis de navegación y credenciales, como browser forensics y detección de malware
-- utilidades para WiFi, procesos, puertos y análisis binario
+> [!NOTE]
+> **Actualización v1.5:** Se ha rediseñado por completo el núcleo del sistema, optimizando el rendimiento de la interfaz interactiva y potenciando el gestor multiplataforma de dependencias para una experiencia sin interrupciones.
 
-El script principal `nostraxiten.py` carga un menú interactivo desde el que se ejecutan los distintos módulos y permite instalar dependencias desde la misma herramienta.
+---
 
-## Características principales
+## Interfaz del Sistema
 
-- menú interactivo para lanzar herramientas y módulos
-- instalación cruzada de dependencias en Windows, Linux y Termux
-- soporte para ejecutar módulos Python propios con configuración de `PYTHONPATH`
-- opciones de forense y OSINT integradas
+<img width="1538" height="752" alt="Nostraxiten Interface Showcase" src="https://github.com/user-attachments/assets/dcc4590f-d4d4-4871-ac4f-2a01b1acb4b6" />
 
-## Requisitos
+---
 
-- Python 3.x
-- acceso a la terminal en Windows, Linux o Termux
-- permisos de administrador/root para instalar paquetes del sistema
+## Arquitectura Modular y Capacidades
 
-## Instalación
+Nostraxiten organiza sus funciones en tres pilares principales, permitiendo una transición fluida entre distintas metodologías de investigación:
 
-### 1. Preparar el repositorio
-
-```powershell
-Set-Location C:\Users\tuUsuario\Documents\nostraxiten
+```mermaid
+graph TD
+    A[Nostraxiten v1.5] --> B[Módulos Nox]
+    A --> C[Módulos Classic]
+    A --> D[Módulos Utilities]
+    
+    B --> B1[Forense de Redes & Tráfico]
+    B --> B2[Análisis Forense Local]
+    B --> B3[Extracción de Navegación]
+    
+    C --> C1[Reconocimiento OSINT]
+    C --> C2[Escaneo Activo / Pasivo]
+    C --> C3[Auditoría de Sistemas]
+    
+    D --> D1[Análisis de Binarios]
+    D --> D2[Generación de Reportes]
+    D --> D3[Gestión de Dependencias]
 ```
 
-### 2. Windows
+### 1. Módulos Nox (Análisis Profundo y DFIR)
+*   **Forense de Redes:** Análisis y captura avanzada de tráfico utilizando `tshark` y `scapy`.
+*   **Análisis Forense Local:** Adquisición y extracción de artefactos en memoria y disco duro con `volatility`, `foremost`, y `bulk_extractor`.
+*   **Browser Forensics:** Detección de malware, extracción de historial, cookies, credenciales y perfiles de navegación local.
+*   **Seguridad del Sistema:** Detección de rootkits y auditorías del sistema con `chkrootkit` y `lynis`.
 
-En Windows, la herramienta incluye un instalador de dependencias en el menú principal. Para instalar dependencias:
+### 2. Módulos Classic (OSINT & Auditoría de Redes)
+*   **Reconocimiento OSINT:** Búsqueda pasiva de información y recolección de fuentes abiertas con `theHarvester`, `recon-ng` y `spiderfoot`.
+*   **Escaneo e Inventariado:** Mapeo de puertos, servicios y vulnerabilidades mediante `nmap`.
+*   **Auditoría Inalámbrica:** Utilidades y scripts para auditorías de redes WiFi locales.
 
-```powershell
+### 3. Módulos Utilities (Herramientas y Diagnóstico)
+*   **Análisis Binario:** Inspección preliminar de ejecutables y archivos sospechosos.
+*   **Generador de Reportes:** Consolidación de hallazgos en reportes estructurados para su posterior análisis.
+*   **Gestor Automático:** Instalación inteligente de dependencias del sistema y módulos de Python.
+
+---
+
+## Requisitos del Sistema
+
+*   **Entorno de Ejecución:** Python 3.8 o superior.
+*   **Permisos:** Privilegios de administrador (Windows) o `sudo`/root (Linux/Termux) para instalar herramientas del sistema y gestionar adaptadores de red.
+*   **Conexión a Internet:** Requerida para la instalación inicial de dependencias y consultas OSINT.
+
+---
+
+## Guía de Instalación
+
+Nostraxiten incluye un **instalador inteligente automatizado (Opción `99`)** que configura los requisitos de Python y detecta las dependencias faltantes del sistema operativo.
+
+### 1. Clonar el repositorio y acceder
+```bash
+git clone https://github.com/Nostraxiten/nostraxiten.git
+cd nostraxiten
+```
+
+### 2. Configuración por Plataforma
+
+Selecciona tu sistema operativo para realizar la instalación (automática o manual):
+
+#### Windows (PowerShell)
+> [!TIP]
+> Ejecuta la consola como **Administrador** para garantizar la correcta configuración de las herramientas del sistema.
+
+*   **Método Recomendado (Instalador Integrado):**
+    ```powershell
+    python nostraxiten.py
+    # Selecciona la opción 99 en el menú interactivo para instalar dependencias automáticamente.
+    ```
+*   **Método Manual (Dependencias y Python):**
+    ```powershell
+    python -m pip install --upgrade pip
+    python -m pip install requests colorama cryptography pycryptodome scapy pywin32
+    ```
+    *Descarga e instala manualmente los siguientes binarios agregándolos a tu PATH:*
+    *   [Nmap](https://nmap.org/download.html) (Escaneo de red)
+    *   [Wireshark / TShark](https://www.wireshark.org/) (Análisis de paquetes)
+    *   [Exiftool](https://exiftool.org/) (Metadatos)
+    *   [Steghide](https://github.com/StefanoDeVuono/steghide) (Esteganografía)
+
+---
+
+#### Linux (Debian/Ubuntu)
+*   **Método Recomendado (Instalador Integrado):**
+    ```bash
+    python3 nostraxiten.py
+    # Selecciona la opción 99 en el menú interactivo.
+    ```
+*   **Método Manual (Paquetes APT & PIP):**
+    ```bash
+    sudo apt update
+    sudo apt install -y python3 python3-pip git nmap curl wget tshark binwalk exiftool steghide foremost bulk-extractor chkrootkit lynis
+    python3 -m pip install --upgrade pip
+    python3 -m pip install requests colorama cryptography pycryptodome scapy
+    ```
+
+---
+
+#### Android (Termux)
+*   **Método Recomendado (Instalador Integrado):**
+    ```bash
+    python3 nostraxiten.py
+    # Selecciona la opción 99 en el menú interactivo.
+    ```
+*   **Método Manual:**
+    ```bash
+    pkg update && pkg upgrade -y
+    pkg install python git nmap curl wget binwalk exiftool steghide foremost -y
+    python3 -m pip install --upgrade pip
+    python3 -m pip install requests colorama cryptography pycryptodome scapy
+    ```
+
+---
+
+## Modo de Uso
+
+Para arrancar el entorno interactivo de Nostraxiten:
+
+```bash
 python nostraxiten.py
 ```
 
-Luego, en el menú, selecciona la opción `99` para `Install Dependencies (Win/Lin/Android)`.
+### Navegación en el Menú
+1.  **Exploración:** El menú principal agrupa las herramientas de manera categórica.
+2.  **Ejecución:** Introduce el número del módulo que desees lanzar y sigue las instrucciones en pantalla.
+3.  **Configuración de Módulos Propios:** Nostraxiten admite la ejecución de submódulos personalizados. La herramienta se encarga de estructurar automáticamente el `PYTHONPATH` para evitar conflictos de importación de librerías.
+4.  **Actualización/Dependencias:** Introduce `99` en cualquier momento para comprobar e instalar las dependencias necesarias de tu sistema operativo actual.
 
-También puedes instalar manualmente los componentes Python necesarios:
+---
 
-```powershell
-python -m pip install --upgrade pip
-python -m pip install requests colorama cryptography pycryptodome scapy pywin32
-git clone https://github.com/Nostraxiten/nostraxiten.git // git previamente instalado.
+## Estructura del Repositorio
+
+La arquitectura del framework está estructurada para ser fácilmente extensible:
+
+```text
+nostraxiten/
+├── nostraxiten.py           # Script principal y orquestador del menú
+├── modules/                 # Directorio de módulos funcionales
+│   ├── nox/                 # Módulos de análisis profundo y forense (DFIR)
+│   │   ├── browser_forensics/
+│   │   └── memory_analysis/
+│   └── classic/             # Módulos clásicos, red, OSINT y escaneos
+│       ├── network_scanner/
+│       └── osint_tools/
+└── utils/                   # Clases utilitarias y scripts de ayuda general
 ```
 
-Para las herramientas externas, descarga e instala manualmente:
+---
 
-- `nmap`: https://nmap.org/download.html
-- `tshark`/Wireshark: https://www.wireshark.org/
-- `exiftool`: https://exiftool.org/
-- `steghide`: https://github.com/StefanoDeVuono/steghide
-- `foremost`: compilar desde fuente o instalar desde repositorios compatibles
+## Contribuciones y Desarrollo
 
-### 3. Linux
+¡Las contribuciones para expandir los módulos de Nostraxiten son siempre bienvenidas! 
 
-Ejecuta el instalador integrado con Python:
+Para añadir un nuevo módulo:
+1.  Identifica la categoría adecuada de tu módulo (`nox` para DFIR y análisis profundo, o `classic` para OSINT y utilidades generales).
+2.  Desarrolla el script integrando los manejadores de colores y salidas estandarizados en la carpeta `utils/`.
+3.  Registra tu módulo en el menú interactivo de `nostraxiten.py` para asegurar que el framework configure el `PYTHONPATH` adecuadamente durante la llamada.
 
-```bash
-python3 nostraxiten.py
-```
+---
 
-En el menú, selecciona `99` para instalar dependencias.
+## Descargo de Responsabilidad (Disclaimer)
 
-También puedes instalar manualmente los paquetes de sistema necesarios:
-
-```bash
-sudo apt update
-sudo apt install -y python3 python3-pip git nmap curl wget tshark binwalk exiftool steghide foremost bulk-extractor chkrootkit lynis
-python3 -m pip install --upgrade pip
-python3 -m pip install requests colorama cryptography pycryptodome scapy
-git clone https://github.com/Nostraxiten/nostraxiten.git
-```
-
-### 4. Android (Termux)
-
-En Termux, abre la terminal y ejecuta el instalador integrado:
-
-```bash
-python3 nostraxiten.py
-```
-
-Elige la opción `99` para instalar dependencias.
-
-Manual:
-
-```bash
-pkg update && pkg upgrade -y
-pkg install python git nmap curl wget binwalk exiftool steghide foremost -y
-python3 -m pip install --upgrade pip
-python3 -m pip install requests colorama cryptography pycryptodome scapy
-git clone https://github.com/Nostraxiten/nostraxiten.git
-```
-
-## Uso
-
-Para iniciar la herramienta:
-
-```bash
-python nostraxiten.py
-```
-
-El menú principal está compuesto por módulos agrupados en:
-
-- Nox: utilidades de análisis profundo y forense
-- Classic: herramientas OSINT y de análisis de sistema
-- Utilities: análisis binario, generación de reportes y extracción forense
-
-Presiona el número correspondiente para ejecutar un módulo, o `99` para instalar dependencias.
-
-## Instalación de dependencias desde la herramienta
-
-El menú principal de `nostraxiten.py` incluye la opción `99`, que lanza el instalador cruzado de dependencias. Esta opción detecta si estás en:
-
-- Windows
-- Linux
-- Android/Termux
-
-y ejecuta los comandos adecuados para instalar paquetes de sistema y dependencias Python.
-
-## Contribuir
-
-Se recomienda revisar el código de los módulos existentes y añadir nuevas integraciones siguiendo la estructura de `nostraxiten/modules/nox` y `nostraxiten/modules/classic`.
+> [!WARNING]
+> Este framework y sus módulos están diseñados exclusivamente con fines educativos, de investigación académica, auditorías de seguridad autorizadas y análisis forense bajo consentimiento legal explícito. El uso indebido de Nostraxiten para realizar actividades no autorizadas es responsabilidad exclusiva del usuario final. Los autores y contribuidores no se hacen responsables de los daños ocasionados por la mala utilización de esta herramienta.
 
