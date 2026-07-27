@@ -40,12 +40,11 @@ def print_banner():
     print(f"{r}[{w}I{r}]{w} Info                                                                 {w}Next {r}[{w}N{r}]")
     print(f"{r}[{w}S{r}]{w} Site")
 
-def print_menu_columns(columns):
+def print_menu_columns(columns, headers):
     r = Fore.RED + Style.BRIGHT
     w = Fore.WHITE + Style.BRIGHT
 
-    headers = ("NOX / FORENSE", "OSINT / RED", "ANALISIS SISTEMA")
-    gap = 8
+    gap = 6
     min_col_width = 26
     left_shift = 18
     col_widths = [
@@ -165,7 +164,7 @@ def install_dependencies():
 
     # --- 2. Dependencias de Python ---
     print(f"\n      {r}[{w}+{r}]{w} Instalando librerías de Python...")
-    py_deps = ["requests", "colorama", "cryptography", "pycryptodome", "scapy"]
+    py_deps = ["requests", "colorama", "cryptography", "pycryptodome", "scapy", "dnspython", "Pillow"]
     if sys.platform == 'win32':
         py_deps.append("pywin32")
     
@@ -183,6 +182,10 @@ def install_dependencies():
 
 def main():
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    project_root = os.path.join(BASE_DIR, "nostraxiten")
+    if project_root not in sys.path:
+        sys.path.insert(0, project_root)
+
     while True:
         clear_screen()
         print_banner()
@@ -226,13 +229,23 @@ def main():
             ("26", "Chkrootkit", "nostraxiten/modules/classic/chkrootkit.py")
         ]
         
-        all_options = {item[0]: item for item in col1 + col2 + col3}
-        
-        print_menu_columns((col1, col2, col3))
+        col4 = [
+            ("27", "Domain Recon (WHOIS/DNS/Subs)", "nostraxiten/modules/osint/domain_recon.py"),
+            ("28", "Username Recon (Multi-Plataf.)", "nostraxiten/modules/osint/username_recon.py"),
+            ("29", "Email Recon (Breach/Hunter)", "nostraxiten/modules/osint/email_recon.py"),
+            ("30", "Metadata / EXIF Analyzer", "nostraxiten/modules/osint/metadata_recon.py"),
+            ("31", "Investigacion Completa", "nostraxiten/modules/osint/investigate.py"),
+            ("32", "Ver Grafo de Entidades", "nostraxiten/modules/osint/view_cases.py"),
+        ]
 
-        footer = f"[99] Install Dependencies (Win/Lin/Android)      [00] Exit"
+        all_options = {item[0]: item for item in col1 + col2 + col3 + col4}
+
+        headers = ("NOX / FORENSE", "OSINT / RED", "ANALISIS SISTEMA", "OSINT PRO (NATIVO)")
+        print_menu_columns((col1, col2, col3, col4), headers)
+
+        footer = f"[99] Install Dependencies (Win/Lin/Android)  [98] Config API Keys  [00] Exit"
         footer_indent = " " * max(4, ((shutil.get_terminal_size((100, 24)).columns - len(footer)) // 2) - 18)
-        print(f"\n{footer_indent}{r}[{w}99{r}]{w} Install Dependencies (Win/Lin/Android)      {r}[{w}00{r}]{w} Exit")
+        print(f"\n{footer_indent}{r}[{w}99{r}]{w} Install Dependencies      {r}[{w}98{r}]{w} Config API Keys      {r}[{w}00{r}]{w} Exit")
         print()
         
         try:
@@ -248,9 +261,12 @@ def main():
             break
         elif choice == '99':
             install_dependencies()
+        elif choice == '98':
+            from config.settings import settings
+            settings.edit()
         elif choice in ['I', 'i']:
             print(f"\n{w}[i] Nostraxiten Framework - Advanced Forensic & OSINT Suite")
-            print(f"{w}[i] Version 1.5 - Modular Edition")
+            print(f"{w}[i] Version 1.6 - OSINT Pro Edition")
             input(f"\n{d}Press Enter to return...")
         elif choice in ['S', 's']:
             print(f"\n{w}[i] Github: https://github.com/nostraxiten/noxforens")

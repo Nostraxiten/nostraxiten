@@ -3,7 +3,7 @@
 
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Platform Support](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20Android%20(Termux)-lightgrey.svg?style=for-the-badge&logo=target)](https://github.com/Nostraxiten/nostraxiten)
-[![Version](https://img.shields.io/badge/Version-v1.5-orange.svg?style=for-the-badge&logo=github)](https://github.com/Nostraxiten/nostraxiten/releases)
+[![Version](https://img.shields.io/badge/Version-v1.6-orange.svg?style=for-the-badge&logo=github)](https://github.com/Nostraxiten/nostraxiten/releases)
 [![Security](https://img.shields.io/badge/Security-OSINT%20%26%20Forensics-red.svg?style=for-the-badge&logo=keycdn&logoColor=white)](#)
 
 ---
@@ -15,7 +15,9 @@
 A través de una interfaz interactiva de consola (CLI) optimizada, Nostraxiten unifica potentes herramientas de la industria bajo un único entorno modular, permitiendo a analistas de seguridad, investigadores y entusiastas ejecutar auditorías complejas con facilidad.
 
 > [!NOTE]
-> **Actualización v1.5:** Se ha rediseñado por completo el núcleo del sistema, optimizando el rendimiento de la interfaz interactiva y potenciando el gestor multiplataforma de dependencias para una experiencia sin interrupciones.
+> **Actualización v1.6:** Se ha incorporado **OSINT Pro**, un motor de reconocimiento 100% nativo en Python (sin depender de binarios externos) con Domain Recon, Username Recon multiplataforma, Email Recon con breach-check, análisis EXIF/GPS y un motor de correlación con grafo de entidades interactivo. Además se expuso la gestión de API Keys (Hunter.io, HaveIBeenPwned, VirusTotal, Onyphe, Shodan) directamente desde el menú principal.
+>
+> **Actualización v1.5:** Se rediseñó por completo el núcleo del sistema, optimizando el rendimiento de la interfaz interactiva y potenciando el gestor multiplataforma de dependencias para una experiencia sin interrupciones.
 
 ---
 
@@ -31,21 +33,28 @@ Nostraxiten organiza sus funciones en tres pilares principales, permitiendo una 
 
 ```mermaid
 graph TD
-    A[Nostraxiten v1.5] --> B[Módulos Nox]
+    A[Nostraxiten v1.6] --> B[Módulos Nox]
     A --> C[Módulos Classic]
     A --> D[Módulos Utilities]
-    
+    A --> E[OSINT Pro - Motor Nativo]
+
     B --> B1[Forense de Redes & Tráfico]
     B --> B2[Análisis Forense Local]
     B --> B3[Extracción de Navegación]
-    
+
     C --> C1[Reconocimiento OSINT]
     C --> C2[Escaneo Activo / Pasivo]
     C --> C3[Auditoría de Sistemas]
-    
+
     D --> D1[Análisis de Binarios]
     D --> D2[Generación de Reportes]
     D --> D3[Gestión de Dependencias]
+
+    E --> E1[Domain Recon: WHOIS/DNS/Subdominios]
+    E --> E2[Username Recon Multiplataforma]
+    E --> E3[Email Recon: Breach/Hunter/Gravatar]
+    E --> E4[Metadata/EXIF + Geolocalización]
+    E --> E5[Grafo de Correlación de Entidades]
 ```
 
 ### 1. Módulos Nox (Análisis Profundo y DFIR)
@@ -63,6 +72,19 @@ graph TD
 *   **Análisis Binario:** Inspección preliminar de ejecutables y archivos sospechosos.
 *   **Generador de Reportes:** Consolidación de hallazgos en reportes estructurados para su posterior análisis.
 *   **Gestor Automático:** Instalación inteligente de dependencias del sistema y módulos de Python.
+
+### 4. OSINT Pro — Motor Nativo (sin binarios externos)
+
+A diferencia de los módulos `classic` (que orquestan herramientas externas), la suite **OSINT Pro** está implementada en Python puro y no requiere instalar binarios de terceros. Es el conjunto de módulos pensado para competir en profundidad con frameworks como SpiderFoot o Maltego:
+
+*   **[27] Domain Recon:** Cliente WHOIS nativo (sockets), registros DNS completos, enumeración de subdominios vía Certificate Transparency (`crt.sh`) con resolución en paralelo, fingerprint HTTP/TLS y detección heurística de tecnologías (WordPress, Next.js, Cloudflare...), y barrido ligero de puertos comunes sin privilegios root.
+*   **[28] Username Recon:** Búsqueda concurrente de un username en más de 80 plataformas (GitHub, redes sociales, foros, gaming, creativas...) usando una base de datos propia extensible en `data/osint_sites.json` — no depende de `sherlock-project`.
+*   **[29] Email Recon:** Validación de sintaxis y MX, comprobación de Gravatar, verificación e enriquecimiento vía Hunter.io, y comprobación de brechas de datos vía HaveIBeenPwned.
+*   **[30] Metadata / EXIF Analyzer:** Extracción de metadatos y datos GPS embebidos en imágenes, con generación automática de enlace a Google Maps.
+*   **[31] Investigación Completa:** Orquesta todos los módulos anteriores sobre un mismo caso y correlaciona los hallazgos (dominios, IPs, subdominios, usernames, perfiles, emails, brechas, ubicaciones GPS...) en un **grafo de entidades**, exportado como JSON, Graphviz DOT y una visualización HTML interactiva autocontenida.
+*   **[32] Ver Grafo de Entidades:** Explora investigaciones anteriores y accede a sus grafos/reportes generados.
+
+> Configura tus API keys (Hunter.io, HaveIBeenPwned, VirusTotal, Onyphe, Shodan) desde la opción **[98] Config API Keys** del menú principal — sin ellas, los módulos que las usan degradan de forma controlada e informan qué falta.
 
 ---
 
@@ -169,10 +191,11 @@ nostraxiten/
 │   ├── nox/                 # Módulos de análisis profundo y forense (DFIR)
 │   │   ├── browser_forensics/
 │   │   └── memory_analysis/
-│   └── classic/             # Módulos clásicos, red, OSINT y escaneos
-│       ├── network_scanner/
-│       └── osint_tools/
-└── utils/                   # Clases utilitarias y scripts de ayuda general
+│   ├── classic/             # Wrappers de herramientas externas (nmap, tshark, sherlock...)
+│   └── osint/               # OSINT Pro — motor nativo (domain/username/email/metadata + grafo)
+├── data/                    # Datos estáticos (magic bytes, base de datos de plataformas OSINT)
+├── config/                  # Configuración persistente (API keys, rutas, preferencias)
+└── core/                    # Utilidades compartidas (colores, sesión HTTP, entorno, logging)
 ```
 
 ---

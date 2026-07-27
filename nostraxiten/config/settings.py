@@ -9,6 +9,8 @@ class Config:
         self.vt_api_key = ''
         self.onyphe_api_key = ''
         self.hunter_api_key = ''
+        self.hibp_api_key = ''
+        self.shodan_api_key = ''
         self.wordlist_path = '/usr/share/wordlists/rockyou.txt'
         self.last_session = ''
         self.analyst_name = 'Admin'
@@ -32,6 +34,8 @@ class Config:
             'vt_api_key': self.vt_api_key,
             'onyphe_api_key': self.onyphe_api_key,
             'hunter_api_key': self.hunter_api_key,
+            'hibp_api_key': self.hibp_api_key,
+            'shodan_api_key': self.shodan_api_key,
             'wordlist_path': self.wordlist_path,
             'last_session': self.last_session,
             'analyst_name': self.analyst_name,
@@ -56,12 +60,14 @@ class Config:
             print(f"  [1] VirusTotal API Key: {dm(self.vt_api_key[:5] + '...' if self.vt_api_key else 'Vacío')}")
             print(f"  [2] Onyphe API Key:     {dm(self.onyphe_api_key[:5] + '...' if self.onyphe_api_key else 'Vacío')}")
             print(f"  [3] Hunter.io API Key:  {dm(self.hunter_api_key[:5] + '...' if self.hunter_api_key else 'Vacío')}")
-            print(f"  [4] Wordlist Path:      {dm(self.wordlist_path)}")
-            print(f"  [5] Analyst Name:       {dm(self.analyst_name)}")
-            print(f"  [6] Base Dir:           {dm(self.base_dir)}")
-            print(f"  [7] Auto Report:        {g('ON') if self.auto_report else r('OFF')}")
+            print(f"  [4] HIBP API Key:       {dm(self.hibp_api_key[:5] + '...' if self.hibp_api_key else 'Vacío')}")
+            print(f"  [5] Shodan API Key:     {dm(self.shodan_api_key[:5] + '...' if self.shodan_api_key else 'Vacío')}")
+            print(f"  [6] Wordlist Path:      {dm(self.wordlist_path)}")
+            print(f"  [7] Analyst Name:       {dm(self.analyst_name)}")
+            print(f"  [8] Base Dir:           {dm(self.base_dir)}")
+            print(f"  [9] Auto Report:        {g('ON') if self.auto_report else r('OFF')}")
             print(f"\n  [s] Guardar y Salir")
-            
+
             choice = inp("Selecciona opción a editar: ").strip().lower()
             if choice == 's':
                 self.save()
@@ -73,12 +79,16 @@ class Config:
             elif choice == '3':
                 self.hunter_api_key = inp("Nuevo Hunter.io API Key: ")
             elif choice == '4':
-                self.wordlist_path = inp("Nuevo Wordlist Path: ")
+                self.hibp_api_key = inp("Nuevo HIBP API Key (haveibeenpwned.com/API/Key): ")
             elif choice == '5':
-                self.analyst_name = inp("Nuevo Analyst Name: ")
+                self.shodan_api_key = inp("Nuevo Shodan API Key: ")
             elif choice == '6':
-                self.base_dir = inp("Nuevo Base Dir: ")
+                self.wordlist_path = inp("Nuevo Wordlist Path: ")
             elif choice == '7':
+                self.analyst_name = inp("Nuevo Analyst Name: ")
+            elif choice == '8':
+                self.base_dir = inp("Nuevo Base Dir: ")
+            elif choice == '9':
                 self.auto_report = not self.auto_report
 
 settings = Config()
