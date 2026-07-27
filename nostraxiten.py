@@ -266,7 +266,7 @@ def main():
             settings.edit()
         elif choice in ['I', 'i']:
             print(f"\n{w}[i] Nostraxiten Framework - Advanced Forensic & OSINT Suite")
-            print(f"{w}[i] Version 1.5 - Modular Edition")
+            print(f"{w}[i] Version 1.6 - OSINT Pro Edition")
             input(f"\n{d}Press Enter to return...")
         elif choice in ['S', 's']:
             print(f"\n{w}[i] Github: https://github.com/nostraxiten/noxforens")
