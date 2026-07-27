@@ -3,7 +3,7 @@
 
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Platform Support](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20Android%20(Termux)-lightgrey.svg?style=for-the-badge&logo=target)](https://github.com/Nostraxiten/nostraxiten)
-[![Version](https://img.shields.io/badge/Version-v1.5-orange.svg?style=for-the-badge&logo=github)](https://github.com/Nostraxiten/nostraxiten/releases)
+[![Version](https://img.shields.io/badge/Version-v1.6-orange.svg?style=for-the-badge&logo=github)](https://github.com/Nostraxiten/nostraxiten/releases)
 [![Security](https://img.shields.io/badge/Security-OSINT%20%26%20Forensics-red.svg?style=for-the-badge&logo=keycdn&logoColor=white)](#)
 
 ---
@@ -15,7 +15,9 @@
 A través de una interfaz interactiva de consola (CLI) optimizada, Nostraxiten unifica potentes herramientas de la industria bajo un único entorno modular, permitiendo a analistas de seguridad, investigadores y entusiastas ejecutar auditorías complejas con facilidad.
 
 > [!NOTE]
-> **Actualización v1.5:** Se ha rediseñado por completo el núcleo del sistema, optimizando el rendimiento de la interfaz interactiva y potenciando el gestor multiplataforma de dependencias para una experiencia sin interrupciones.
+> **Actualización v1.6:** Se ha incorporado **OSINT Pro**, un motor de reconocimiento 100% nativo en Python (sin depender de binarios externos) con Domain Recon, Username Recon multiplataforma, Email Recon con breach-check, análisis EXIF/GPS y un motor de correlación con grafo de entidades interactivo. Además se expuso la gestión de API Keys (Hunter.io, HaveIBeenPwned, VirusTotal, Onyphe, Shodan) directamente desde el menú principal.
+>
+> **Actualización v1.5:** Se rediseñó por completo el núcleo del sistema, optimizando el rendimiento de la interfaz interactiva y potenciando el gestor multiplataforma de dependencias para una experiencia sin interrupciones.
 
 ---
 
@@ -31,7 +33,7 @@ Nostraxiten organiza sus funciones en tres pilares principales, permitiendo una 
 
 ```mermaid
 graph TD
-    A[Nostraxiten v1.5] --> B[Módulos Nox]
+    A[Nostraxiten v1.6] --> B[Módulos Nox]
     A --> C[Módulos Classic]
     A --> D[Módulos Utilities]
     A --> E[OSINT Pro - Motor Nativo]
