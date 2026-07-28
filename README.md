@@ -16,7 +16,7 @@ Developer de frameworks — en cualquier lenguaje que el problema pida — con f
 
 ## 📂 Proyectos
 
-- **[Nostraxiten](https://github.com/Nostraxiten/nostraxiten)** — mi repo base: framework modular de OSINT, forense digital y auditoría de seguridad. Es donde centralizo y organizo todo lo que voy investigando, en constante evolución.
+- **[Nostraxiten](https://github.com/Nostraxiten/nostraxiten-framework)** — mi repo base: framework modular de OSINT, forense digital y auditoría de seguridad. Es donde centralizo y organizo todo lo que voy investigando, en constante evolución.
 
 <!-- más proyectos aquí -->
 
