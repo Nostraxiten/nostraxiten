@@ -2,15 +2,23 @@
 
 📍 `127.0.0.1`
 
-Developer de frameworks (en cualquier lenguaje) y ciberseguridad — investigación OSINT, hacking, y lo que se cruce en el camino.
+## Sobre mí
 
-No tengo un stack ni un proyecto fijo: soy adaptativo, hoy puede tocar backend, mañana forense, pasado un exploit. Si hace falta aprenderlo, lo aprendo.
+Developer de frameworks — en cualquier lenguaje que el problema pida — con foco en ciberseguridad. Ahora mismo estudiando con enfoque en seguridad: pentesting, forense y entender cómo se rompen los sistemas por dentro. Soy 100% adaptativo, no me caso con un stack ni con un tema: hoy toca backend, mañana un exploit, pasado un dispositivo físico.
 
-## 🔧 En qué ando
+## 🔍 Lo que me atrae
 
-- Construyendo frameworks y herramientas propias, sin atarme a un lenguaje.
-- Ciberseguridad ofensiva/defensiva, OSINT y análisis forense digital.
-- **[Nostraxiten](https://github.com/Nostraxiten/nostraxiten)** — mi repo base, donde vuelco y organizo todo lo que voy investigando. Sigue en construcción, se actualiza constantemente.
+- 🎮 Reversing y hacks de videojuegos — cheats, trainers, análisis de anti-cheat.
+- 🕵️ OSINT — reconocimiento, correlación de datos, investigación digital.
+- 🔐 Ciberseguridad ofensiva/defensiva y análisis forense digital (DFIR).
+- 📡 Hardware hacking — RFID/NFC con **Proxmark3** y otros aparatos reales.
+- 🛠️ Construir herramientas y frameworks propios, sin atarme a un lenguaje.
+
+## 📂 Proyectos
+
+- **[Nostraxiten](https://github.com/Nostraxiten/nostraxiten)** — mi repo base: framework modular de OSINT, forense digital y auditoría de seguridad. Es donde centralizo y organizo todo lo que voy investigando, en constante evolución.
+
+<!-- más proyectos aquí -->
 
 ## 🔗 Links
 
