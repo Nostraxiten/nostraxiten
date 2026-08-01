@@ -1,22 +1,46 @@
 # 👋 Hola! Soy Nox!
 
+> Developer de frameworks — en cualquier lenguaje que el problema pida — con foco en ciberseguridad.
+
+---
+
 ## Sobre mí
 
-Developer de frameworks — en cualquier lenguaje que el problema pida — con foco en ciberseguridad. Ahora mismo estudiando con enfoque en seguridad: pentesting, forense y entender cómo se rompen los sistemas por dentro. Soy 100% adaptativo,puedo hacer cualquier tarea! Hoy puede ser un juego, mañana un exploit, pasado un dispositivo físico.
+Ahora mismo estudiando con enfoque en seguridad: **pentesting**, **forense** y entender cómo se rompen los sistemas por dentro.
+
+Soy 100% adaptativo, puedo hacer cualquier tarea. Hoy puede ser un juego, mañana un exploit, pasado un dispositivo físico.
+
+---
 
 ## 🔍 Lo que me atrae
 
-- Reversing y hacks de videojuegos — cheats, trainers, análisis de anti-cheat.
-- OSINT — reconocimiento, correlación de datos, investigación digital.
-- Ciberseguridad ofensiva/defensiva y análisis forense digital (DFIR).
-- Hardware hacking — RFID/NFC con **Proxmark3** y otros aparatos reales.
-- Construir herramientas y frameworks propios, sin atarme a un lenguaje.
+| Área | Detalle |
+|---|---|
+| **Reversing** | Hacks de videojuegos — cheats, trainers, análisis de anti-cheat |
+| **OSINT** | Reconocimiento, correlación de datos, investigación digital |
+| **Ciberseguridad** | Ofensiva/defensiva y análisis forense digital (`DFIR`) |
+| **Hardware hacking** | RFID/NFC con `Proxmark3` y otros aparatos reales |
+| **Desarrollo** | Herramientas y frameworks propios, sin atarme a un lenguaje |
+
+---
 
 ## 📂 Proyectos
 
-- Tengo una gran cantidad de proyectos en proceso y algunos ya terminados. Curiosos cuanto menos... Alguno puede ser un... Grabber de IP, otros pueden ser OSINT avanzado, otros pueden ser escaneo o análisis de red, o un cliente de cheats para un juego... Todo queda en mis repositorios. (Te invito a explorarlos) 💗
+<details>
+<summary><strong>Ver qué tipo de cosas puedes encontrar</strong></summary>
+
+<br>
+
+Tengo una gran cantidad de proyectos en proceso y algunos ya terminados. Curiosos cuanto menos...
+
+Alguno puede ser un `Grabber de IP`, otros pueden ser `OSINT avanzado`, otros pueden ser `escaneo o análisis de red`, o un `cliente de cheats` para un juego...
+
+Todo queda en mis repositorios. *(Te invito a explorarlos)* 💗
+
+</details>
 
 ---
-Y bueno... si disfrutas esto tanto como yo... Me ayudaria mucho si me invitas a un cafe ☕!
+
+> Y bueno... si disfrutas esto tanto como yo... me ayudaría mucho si me invitas a un café ☕
+
 [![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-ff69b4?style=for-the-badge&logo=github-sponsors)](https://github.com/sponsors/nostraxiten)
-  
