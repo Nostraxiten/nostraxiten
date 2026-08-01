@@ -1,10 +1,8 @@
-# 👋 Hi, I'm Nox
-
-📍 `127.0.0.1`
+# 👋 Hola! Soy Nox!
 
 ## Sobre mí
 
-Developer de frameworks — en cualquier lenguaje que el problema pida — con foco en ciberseguridad. Ahora mismo estudiando con enfoque en seguridad: pentesting, forense y entender cómo se rompen los sistemas por dentro. Soy 100% adaptativo, no me caso con un stack ni con un tema: hoy toca backend, mañana un exploit, pasado un dispositivo físico.
+Developer de frameworks — en cualquier lenguaje que el problema pida — con foco en ciberseguridad. Ahora mismo estudiando con enfoque en seguridad: pentesting, forense y entender cómo se rompen los sistemas por dentro. Soy 100% adaptativo,puedo hacer cualquier tarea! Hoy puede ser un juego, mañana un exploit, pasado un dispositivo físico.
 
 ## 🔍 Lo que me atrae
 
@@ -16,8 +14,8 @@ Developer de frameworks — en cualquier lenguaje que el problema pida — con f
 
 ## 📂 Proyectos
 
-- **[Nostraxiten](https://github.com/Nostraxiten/nostraxiten-framework)** — mi repo base: framework modular de OSINT, forense digital y auditoría de seguridad. Es donde centralizo y organizo todo lo que voy investigando, en constante evolución.
+- Tengo una gran cantidad de proyectos en proceso y algunos ya terminados. Curiosos cuanto menos... Alguno puede ser un... Grabber de IP, otros pueden ser OSINT avanzado, otros pueden ser escaneo o análisis de red, o un cliente de cheats para un juego... Todo queda en mis repositorios. (Te invito a explorarlos) 💗
 
 ---
 
-<sub>Root, siempre. Todo lo demás es intercambiable.</sub>
+<sub>No me puedes invitar a un café aún, pero apoyo de tu parte observando mis proyectos, probando los y haciendo sugerencias estaré dispuest@ a verlos..</sub>
