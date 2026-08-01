@@ -19,6 +19,7 @@ Soy 100% adaptativo, puedo hacer cualquier tarea. Hoy puede ser un juego, mañan
 **Ciberseguridad** — Ofensiva/defensiva y análisis forense digital (`DFIR`)  
 **Hardware hacking** — RFID/NFC con `Proxmark3` y otros aparatos reales  
 **Desarrollo** — Herramientas y frameworks propios, sin atarme a un lenguaje
+
 ---
 
 ## 📂 Proyectos
