@@ -17,5 +17,5 @@ Developer de frameworks — en cualquier lenguaje que el problema pida — con f
 - Tengo una gran cantidad de proyectos en proceso y algunos ya terminados. Curiosos cuanto menos... Alguno puede ser un... Grabber de IP, otros pueden ser OSINT avanzado, otros pueden ser escaneo o análisis de red, o un cliente de cheats para un juego... Todo queda en mis repositorios. (Te invito a explorarlos) 💗
 
 ---
-
-<sub>No me puedes invitar a un café aún, pero apoyo de tu parte observando mis proyectos, probando los y haciendo sugerencias estaré dispuest@ a verlos..</sub>
+Y bueno... si disfrutas esto tanto como yo... Me ayudaria mucho si me invitas a un cafe ☕!
+[![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-ff69b4?style=for-the-badge&logo=github-sponsors)](https://github.com/sponsors/nostraxiten)
