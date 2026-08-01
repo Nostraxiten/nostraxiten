@@ -14,14 +14,11 @@ Soy 100% adaptativo, puedo hacer cualquier tarea. Hoy puede ser un juego, mañan
 
 ## 🔍 Lo que me atrae
 
-| Área | Detalle |
-|---|---|
-| **Reversing** | Hacks de videojuegos — cheats, trainers, análisis de anti-cheat |
-| **OSINT** | Reconocimiento, correlación de datos, investigación digital |
-| **Ciberseguridad** | Ofensiva/defensiva y análisis forense digital (`DFIR`) |
-| **Hardware hacking** | RFID/NFC con `Proxmark3` y otros aparatos reales |
-| **Desarrollo** | Herramientas y frameworks propios, sin atarme a un lenguaje |
-
+**Reversing** — Hacks de videojuegos: cheats, trainers, análisis de anti-cheat  
+**OSINT** — Reconocimiento, correlación de datos, investigación digital  
+**Ciberseguridad** — Ofensiva/defensiva y análisis forense digital (`DFIR`)  
+**Hardware hacking** — RFID/NFC con `Proxmark3` y otros aparatos reales  
+**Desarrollo** — Herramientas y frameworks propios, sin atarme a un lenguaje
 ---
 
 ## 📂 Proyectos
