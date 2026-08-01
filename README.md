@@ -7,6 +7,7 @@
 ## Sobre mí
 
 Ahora mismo estudiando con enfoque en seguridad: **pentesting**, **forense** y entender cómo se rompen los sistemas por dentro. 
+
 Soy 100% 
 adaptativo, puedo hacer cualquier tarea. Hoy puede ser un juego, mañana un exploit, pasado un dispositivo físico. 🐱
 
