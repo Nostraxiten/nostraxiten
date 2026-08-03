@@ -1,4 +1,4 @@
-# 👋 Hola! Soy Nox el gato!
+# 👋 Hola! Soy Nøx!
 
 > Developer de frameworks — en cualquier lenguaje que el problema pida — con foco en ciberseguridad.
 
