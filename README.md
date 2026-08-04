@@ -1,9 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:3a3a3f,100:1c1c1f&height=180&section=header&text=Nostraxiten&fontSize=60&fontColor=ffffff&desc=Security%20Researcher%20|%20Reverse%20Engineer&descAlignY=75&descSize=18&fontAlignY=40" alt="banner"/>
-</p>
-
-<p align="center">
-  <sub>Rompiendo sistemas para entender cómo funcionan</sub>
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:3a3a3f,100:1c1c1f&height=180&section=header&text=Nostraxiten&fontSize=60&fontColor=ffffff&desc=Security%20Researcher%20|%20Reverse%20Engineer&descAlignY=75&descSize=18&fontAlignY=40&animation=fadeIn" alt="banner"/>
 </p>
 
 ---
@@ -33,6 +29,7 @@ Soy 100% adaptativo, puedo hacer cualquier tarea. Hoy puede ser un juego, mañan
 
 **Herramientas**  
 <img src="https://skillicons.dev/icons?i=git,github,vscode,docker" alt="herramientas"/>
+
 ---
 
 ## 📊 Estadísticas
@@ -75,3 +72,17 @@ Todo queda en mis repositorios. *(Te invito a explorarlos)* 💗
 > Y bueno... si disfrutas esto tanto como yo... me ayudaría mucho si me invitas a un café ☕
 
 [![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-ff69b4?style=for-the-badge&logo=github-sponsors)](https://github.com/sponsors/nostraxiten)
+
+<br>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&pause=1500&color=8B8B8B&center=true&vCenter=true&width=600&lines=Rompiendo+sistemas+para+entender+c%C3%B3mo+funcionan" alt="frase animada"/>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3a3a3f,100:1c1c1f&height=120&section=footer" alt="footer"/>
+</p>
+
+<p align="center">
+  <sub>Perfil en constante construcción 🛠️</sub>
+</p>
