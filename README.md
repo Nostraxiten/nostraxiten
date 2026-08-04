@@ -23,10 +23,15 @@ Soy 100% adaptativo, puedo hacer cualquier tarea. Hoy puede ser un juego, mañan
 ---
 
 ## 🛠️ Tecnologías
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=python,deno,bash,linux,windows,docker,git,github,vscode" alt="tecnologías"/>
-</p>
 
+**Sistemas Operativos**  
+<img src="https://skillicons.dev/icons?i=linux,windows" alt="sistemas operativos"/>
+
+**Programación**  
+<img src="https://skillicons.dev/icons?i=python,deno,bash" alt="lenguajes y entornos"/>
+
+**Herramientas**  
+<img src="https://skillicons.dev/icons?i=git,github,vscode,docker" alt="herramientas"/>
 ---
 
 ## 📂 Proyectos
