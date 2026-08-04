@@ -68,6 +68,10 @@ Todo queda en mis repositorios. *(Te invito a explorarlos)* 💗
 <br>
 
 <p align="center">
+  <sub>Perfil en constante construcción 🛠️</sub>
+</p>
+
+<p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3a3a3f,100:1c1c1f&height=120&section=footer" alt="footer"/>
 </p>
 
