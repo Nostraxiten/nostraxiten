@@ -1,6 +1,7 @@
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3a3a3f,100:1c1c1f&height=180&section=header&text=Nostraxiten&fontSize=60&fontColor=ffffff&desc=Security%20Researcher%20|%20Reverse%20Engineer&descAlignY=75&descSize=18&fontAlignY=40&animation=fadeIn" alt="banner"/>
 </p>
+
 ---
 
 ## Sobre mí
