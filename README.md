@@ -3,6 +3,10 @@
 </p>
 
 <p align="center">
+  <img src="https://komarev.com/ghpvc/?username=nostraxiten&label=Visitas+al+perfil&color=0e75b6&style=flat" alt="Contador de visitas"/>
+</p>
+
+<p align="center">
   <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&pause=1500&color=8B8B8B&center=true&vCenter=true&width=600&lines=Rompiendo+sistemas+para+entender+c%C3%B3mo+funcionan" alt="frase animada"/>
 </p>
 
