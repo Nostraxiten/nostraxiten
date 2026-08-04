@@ -34,6 +34,30 @@ Soy 100% adaptativo, puedo hacer cualquier tarea. Hoy puede ser un juego, mañan
 <img src="https://skillicons.dev/icons?i=git,github,vscode,docker" alt="herramientas"/>
 ---
 
+## 📊 Estadísticas
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=nostraxiten&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="GitHub Stats"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=nostraxiten&theme=dark&hide_border=true" alt="Racha de contribuciones"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nostraxiten&layout=compact&theme=dark&hide_border=true" alt="Lenguajes más usados"/>
+</p>
+
+---
+
+## 🏆 Logros
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=nostraxiten&theme=darkhub&no-frame=true&row=1&column=6" alt="Trofeos de GitHub"/>
+</p>
+
+---
+
 ## 📂 Proyectos
 <details>
 <summary><strong>Ver qué tipo de cosas puedes encontrar</strong></summary>
