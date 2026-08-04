@@ -1,5 +1,10 @@
-# 👋 Hola! Soy Nøx!
-> Developer de frameworks — en cualquier lenguaje que el problema pida — con foco en ciberseguridad.
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:1a1a2e,100:16213e&height=180&section=header&text=Nostraxiten&fontSize=60&fontColor=ffffff&desc=Security%20Researcher%20|%20Reverse%20Engineer&descAlignY=75&descSize=18&fontAlignY=40" alt="banner"/>
+</p>
+
+<p align="center">
+  <sub>Rompiendo sistemas para entender cómo funcionan</sub>
+</p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=nostraxiten&label=VISITAS&color=0e75b6&style=for-the-badge" alt="contador de visitas"/>
