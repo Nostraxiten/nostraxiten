@@ -86,15 +86,6 @@ graph LR;
 ## 📊 Estadísticas
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=nostraxiten&show_icons=true&theme=dark&include_all_commits=true&count_private=true&hide_border=true" alt="stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nostraxiten&theme=dark&layout=compact&hide_border=true" alt="top-langs"/>
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=nostraxiten&theme=dark&hide_border=true" alt="Racha de contribuciones"/>
-</p>
-
-<p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=nostraxiten&theme=react-dark&hide_border=true" alt="Gráfica de actividad"/>
 </p>
 
