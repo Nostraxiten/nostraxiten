@@ -89,18 +89,6 @@ graph LR;
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=nostraxiten&theme=react-dark&hide_border=true" alt="Gráfica de actividad"/>
 </p>
 
-<!--   snake animation
-       Requiere el GitHub Action "Platane/snk" generando la salida en la rama `output`.
-       Sin ese workflow la imagen NO se mostrará, por eso la dejo comentada.
-<p align="center">
-  <img src="https://raw.githubusercontent.com/nostraxiten/nostraxiten/output/github-contribution-grid-snake-dark.svg" alt="snake"/>
-</p>
--->
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=nostraxiten&theme=onedark&no-frame=true&no-bg=true&margin-w=4&column=7" alt="Trofeos"/>
-</p>
-
 ---
 
 ## 📂 Proyectos
