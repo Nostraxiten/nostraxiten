@@ -1,80 +1,163 @@
+<!-- ╔══════════════════════════════════════════════════════════════╗
+     ║   README · Nostraxiten — perfil en construcción constante 🛠️  ║
+     ╚══════════════════════════════════════════════════════════════╝ -->
+
+<!--   header wave -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3a3a3f,100:1c1c1f&height=180&section=header&text=Nostraxiten&fontSize=60&fontColor=ffffff&desc=Security%20Researcher%20|%20Reverse%20Engineer&descAlignY=75&descSize=18&fontAlignY=40&animation=fadeIn" alt="banner"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3a3a3f,100:1c1c1f&height=200&section=header&text=Nostraxiten&fontSize=62&fontColor=ffffff&desc=Security%20Researcher%20%7C%20Reverse%20Engineer&descAlignY=76&descSize=18&fontAlignY=42&animation=fadeIn" alt="banner"/>
 </p>
 
+<!--   shields / badges row -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=nostraxiten&label=Visitas+al+perfil&color=0e75b6&style=flat" alt="Contador de visitas"/>
+  <a href="https://github.com/nostraxiten"><img src="https://img.shields.io/badge/status-rompiendo%20cosas-brightgreen.svg?style=flat" alt="status"/></a>
+  <img src="https://komarev.com/ghpvc/?username=nostraxiten&label=Visitas+al+perfil&color=0e75b6&style=flat" alt="visitas"/>
+  <a href="https://github.com/nostraxiten?tab=followers"><img src="https://img.shields.io/github/followers/nostraxiten?label=Followers&style=flat&color=blue&logo=github" alt="followers"/></a>
+  <a href="https://github.com/nostraxiten"><img src="https://img.shields.io/badge/focus-Offensive%20Security-FF1493.svg?style=flat" alt="focus"/></a>
 </p>
 
+<!--   typing ticker -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&pause=1500&color=8B8B8B&center=true&vCenter=true&width=600&lines=Rompiendo+sistemas+para+entender+c%C3%B3mo+funcionan" alt="frase animada"/>
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&pause=1500&color=8B8B8B&center=true&vCenter=true&width=640&lines=Rompiendo+sistemas+para+entender+c%C3%B3mo+funcionan;Reverse+Engineering+%C2%B7+Malware+Analysis;OSINT+%C2%B7+Forense+Digital+%C2%B7+Pentesting;aprender+rompiendo" alt="frase animada"/>
 </p>
+
+<!--   perfiles de seguridad · rellena tus usuarios y quita este comentario para que se muestren
+<p align="center">
+  <a href="https://tryhackme.com/p/TU_USUARIO"><img src="https://tryhackme-badges.s3.amazonaws.com/TU_USUARIO.png" alt="TryHackMe"/></a>
+  &nbsp;
+  <a href="https://app.hackthebox.com/profile/TU_ID"><img src="https://img.shields.io/badge/Hack%20The%20Box-9FEF00?style=flat&logo=hackthebox&logoColor=black" alt="HackTheBox"/></a>
+</p>
+-->
 
 ---
 
-## Sobre mí
-Ahora mismo estudiando con enfoque en seguridad: **pentesting**, **forense** y entender cómo se rompen los sistemas por dentro. 
-Soy 100% adaptativo, puedo hacer cualquier tarea. Hoy puede ser un juego, mañana un exploit, pasado un dispositivo físico. 🐱
+## 🐱 Sobre mí
+
+Estudiando con enfoque en seguridad: **pentesting**, **forense** y entender cómo se rompen los sistemas por dentro.
+Soy 100% adaptativo: hoy puede tocar un juego, mañana un exploit, pasado un dispositivo físico.
+
+- 🔭 Investigando **reversing**, **OSINT** y **DFIR**
+- 🧪 Construyendo mis propias herramientas y frameworks
+- 🐾 Filosofía: **aprender rompiendo**
 
 ---
 
 ## 🔍 Lo que me atrae
-**Reversing** — Hacks de videojuegos: cheats, trainers, análisis de anti-cheat  
-**OSINT** — Reconocimiento, correlación de datos, investigación digital  
-**Ciberseguridad** — Ofensiva/defensiva y análisis forense digital (`DFIR`)  
-**Hardware hacking** — RFID/NFC con `Proxmark3` y otros aparatos reales  
+
+**Reversing** — Hacks de videojuegos: cheats, trainers, análisis de anti-cheat
+**OSINT** — Reconocimiento, correlación de datos, investigación digital
+**Ciberseguridad** — Ofensiva / defensiva y análisis forense digital (`DFIR`)
+**Hardware hacking** — RFID/NFC con `Proxmark3` y otros aparatos reales
 **Desarrollo** — Herramientas y frameworks propios, sin atarme a un lenguaje
 
 ---
 
-## 🛠️ Tecnologías
+## 🛠️ Stack &amp; Herramientas
 
-**Sistemas Operativos**  
-<img src="https://skillicons.dev/icons?i=linux,windows" alt="sistemas operativos"/>
+| Categoría | Tecnologías |
+|-----------|-------------|
+| **Sistemas** | ![Linux](https://img.shields.io/badge/-Linux-2b2b2f?style=flat&logo=linux&logoColor=white) ![Windows](https://img.shields.io/badge/-Windows-2b2b2f?style=flat&logo=windows&logoColor=white) ![Kali](https://img.shields.io/badge/-Kali-2b2b2f?style=flat&logo=kalilinux&logoColor=white) |
+| **Lenguajes** | ![Python](https://img.shields.io/badge/-Python-2b2b2f?style=flat&logo=python&logoColor=white) ![Bash](https://img.shields.io/badge/-Bash-2b2b2f?style=flat&logo=gnubash&logoColor=white) ![Deno](https://img.shields.io/badge/-Deno-2b2b2f?style=flat&logo=deno&logoColor=white) |
+| **Reversing / RE** | ![Ghidra](https://img.shields.io/badge/-Ghidra-1c1c1f?style=flat) ![x64dbg](https://img.shields.io/badge/-x64dbg-1c1c1f?style=flat) ![Radare2](https://img.shields.io/badge/-Radare2-1c1c1f?style=flat) ![Cheat Engine](https://img.shields.io/badge/-Cheat_Engine-1c1c1f?style=flat) |
+| **Red / Pentest** | ![Nmap](https://img.shields.io/badge/-Nmap-1c1c1f?style=flat) ![Wireshark](https://img.shields.io/badge/-Wireshark-2b2b2f?style=flat&logo=wireshark&logoColor=white) ![Metasploit](https://img.shields.io/badge/-Metasploit-1c1c1f?style=flat) ![Burp Suite](https://img.shields.io/badge/-Burp_Suite-1c1c1f?style=flat) |
+| **Hardware** | ![Proxmark3](https://img.shields.io/badge/-Proxmark3-1c1c1f?style=flat) ![RFID](https://img.shields.io/badge/-RFID-1c1c1f?style=flat) ![NFC](https://img.shields.io/badge/-NFC-1c1c1f?style=flat) |
+| **Entorno** | ![Git](https://img.shields.io/badge/-Git-2b2b2f?style=flat&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/-GitHub-2b2b2f?style=flat&logo=github&logoColor=white) ![VS Code](https://img.shields.io/badge/-VS_Code-2b2b2f?style=flat&logo=visualstudiocode&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2b2b2f?style=flat&logo=docker&logoColor=white) |
 
-**Programación**  
-<img src="https://skillicons.dev/icons?i=python,deno,bash" alt="lenguajes y entornos"/>
+---
 
-**Herramientas**  
-<img src="https://skillicons.dev/icons?i=git,github,vscode,docker" alt="herramientas"/>
+## 🧠 Áreas de trabajo
+
+```mermaid
+graph LR;
+    N[Nostraxiten]-->A[Reversing]
+    N-->B[OSINT]
+    N-->C[Pentesting]
+    N-->D[Forense · DFIR]
+    N-->E[Hardware Hacking]
+    A-->A1[Anti-cheat]
+    A-->A2[Trainers y Cheats]
+    B-->B1[Reconocimiento]
+    C-->C1[Explotación]
+    D-->D1[Análisis de evidencias]
+    E-->E1[RFID / NFC · Proxmark3]
+```
 
 ---
 
 ## 📊 Estadísticas
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=nostraxiten&theme=dark&hide_border=true" alt="Racha de contribuciones"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=nostraxiten&show_icons=true&theme=dark&include_all_commits=true&count_private=true&hide_border=true" alt="stats"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nostraxiten&theme=dark&layout=compact&hide_border=true" alt="top-langs"/>
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=nostraxiten&theme=dark&hide_border=true" alt="Racha de contribuciones"/>
 </p>
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=nostraxiten&theme=react-dark&hide_border=true" alt="Gráfica de actividad"/>
 </p>
 
+<!--   snake animation
+       Requiere el GitHub Action "Platane/snk" generando la salida en la rama `output`.
+       Sin ese workflow la imagen NO se mostrará, por eso la dejo comentada.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/nostraxiten/nostraxiten/output/github-contribution-grid-snake-dark.svg" alt="snake"/>
+</p>
+-->
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=nostraxiten&theme=onedark&no-frame=true&no-bg=true&margin-w=4&column=7" alt="Trofeos"/>
+</p>
+
 ---
 
 ## 📂 Proyectos
+
 <details>
 <summary><strong>Ver qué tipo de cosas puedes encontrar</strong></summary>
 <br>
 
 Tengo una gran cantidad de proyectos en proceso y algunos ya terminados. Curiosos cuanto menos...
+
 Alguno puede ser un `Grabber de IP`, otros pueden ser `OSINT avanzado`, otros pueden ser `escaneo o análisis de red`, o un `cliente de cheats` para un juego...
+
 Todo queda en mis repositorios. *(Te invito a explorarlos)* 💗
 
 </details>
 
 ---
 
+## 📫 Dónde encontrarme
+
+<p align="center">
+  <a href="https://github.com/nostraxiten"><img src="https://img.shields.io/badge/GitHub-1c1c1f?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+  <a href="https://www.tiktok.com/@nostraxiten"><img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok"/></a>
+</p>
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=nostraxiten/nostraxiten&type=Date)](https://star-history.com/#nostraxiten/nostraxiten&Date)
+
+---
+
 > Y bueno... si disfrutas esto tanto como yo... me ayudaría mucho si me invitas a un café ☕
 
-[![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-ff69b4?style=for-the-badge&logo=github-sponsors)](https://github.com/sponsors/nostraxiten)
+<p align="center">
+  <a href="https://github.com/sponsors/nostraxiten"><img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-ff69b4?style=for-the-badge&logo=github-sponsors" alt="Sponsor"/></a>
+</p>
 
-<br>
+<p align="center">
+  <img src="https://profile-counter.glitch.me/nostraxiten/count.svg" alt="contador de visitas"/>
+</p>
 
 <p align="center">
   <sub>Perfil en constante construcción 🛠️</sub>
 </p>
 
+<!--   footer wave -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3a3a3f,100:1c1c1f&height=120&section=footer" alt="footer"/>
 </p>
