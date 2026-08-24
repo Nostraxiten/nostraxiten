@@ -123,10 +123,6 @@ Todo queda en mis repositorios. *(Te invito a explorarlos)* 💗
 </p>
 
 <p align="center">
-  <img src="https://profile-counter.glitch.me/nostraxiten/count.svg" alt="contador de visitas"/>
-</p>
-
-<p align="center">
   <sub>Perfil en constante construcción 🛠️</sub>
 </p>
 
