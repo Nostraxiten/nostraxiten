@@ -137,12 +137,6 @@ Todo queda en mis repositorios. *(Te invito a explorarlos)* 💗
 
 ---
 
-## ⭐ Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=nostraxiten/nostraxiten&type=Date)](https://star-history.com/#nostraxiten/nostraxiten&Date)
-
----
-
 > Y bueno... si disfrutas esto tanto como yo... me ayudaría mucho si me invitas a un café ☕
 
 <p align="center">
