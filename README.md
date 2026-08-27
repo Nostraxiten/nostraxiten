@@ -17,7 +17,7 @@
 
 <!--   typing ticker -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&pause=1500&color=8B8B8B&center=true&vCenter=true&width=640&lines=Rompiendo+sistemas+para+entender+c%C3%B3mo+funcionan;Reverse+Engineering+%C2%B7+Malware+Analysis;OSINT+%C2%B7+Forense+Digital+%C2%B7+Pentesting;aprender+rompiendo" alt="frase animada"/>
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&pause=1500&color=8B8B8B&center=true&vCenter=true&width=640&lines=aburrido+nunca+con+sueño+c%C3%B3mo+siempre;Reverse+Engineering+%C2%B7+Malware+Analysis;OSINT+%C2%B7+Forense+Digital+%C2%B7+Pentesting;aprende+codigo" alt="frase animada"/>
 </p>
 
 <!--   perfiles de seguridad · rellena tus usuarios y quita este comentario para que se muestren
@@ -35,15 +35,14 @@
 Estudiando con enfoque en seguridad: **pentesting**, **forense** y entender cómo se rompen los sistemas por dentro.
 Soy 100% adaptativo: hoy puede tocar un juego, mañana un exploit, pasado un dispositivo físico.
 
-- 🔭 Investigando **reversing**, **OSINT** y **DFIR**
-- 🧪 Construyendo mis propias herramientas y frameworks
-- 🐾 Filosofía: **aprender rompiendo**
+-  Investigando **reversing**, **OSINT** y **DFIR**
+-  Construyendo mis propias herramientas y frameworks
 
 ---
 
 ## 🔍 Lo que me atrae
 
-**Reversing** — Hacks de videojuegos: cheats, trainers, análisis de anti-cheat
+**Reversing** — Hacks de videojuegos: cheats, trainers
 **OSINT** — Reconocimiento, correlación de datos, investigación digital
 **Ciberseguridad** — Ofensiva / defensiva y análisis forense digital (`DFIR`)
 **Hardware hacking** — RFID/NFC con `Proxmark3` y otros aparatos reales
@@ -51,7 +50,7 @@ Soy 100% adaptativo: hoy puede tocar un juego, mañana un exploit, pasado un dis
 
 ---
 
-## 🛠️ Stack &amp; Herramientas
+## Stack &amp; Herramientas
 
 | Categoría | Tecnologías |
 |-----------|-------------|
@@ -64,7 +63,7 @@ Soy 100% adaptativo: hoy puede tocar un juego, mañana un exploit, pasado un dis
 
 ---
 
-## 🧠 Áreas de trabajo
+##  Áreas de trabajo
 
 ```mermaid
 graph LR;
@@ -107,7 +106,7 @@ Todo queda en mis repositorios. *(Te invito a explorarlos)* 💗
 
 ---
 
-## 📫 Dónde encontrarme
+##  Dónde encontrarme
 
 <p align="center">
   <a href="https://github.com/nostraxiten"><img src="https://img.shields.io/badge/GitHub-1c1c1f?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
