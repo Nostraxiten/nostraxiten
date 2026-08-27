@@ -15,10 +15,6 @@
   <a href="https://github.com/nostraxiten"><img src="https://img.shields.io/badge/focus-Offensive%20Security-FF1493.svg?style=flat" alt="focus"/></a>
 </p>
 
-<!--   typing ticker -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&pause=1500&color=8B8B8B&center=true&vCenter=true&width=640&lines=aburrido+nunca+con+sueño+c%C3%B3mo+siempre;Reverse+Engineering+%C2%B7+Malware+Analysis;OSINT+%C2%B7+Forense+Digital+%C2%B7+Pentesting;aprende+codigo" alt="frase animada"/>
-</p>
 
 <!--   perfiles de seguridad · rellena tus usuarios y quita este comentario para que se muestren
 <p align="center">
