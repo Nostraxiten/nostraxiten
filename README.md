@@ -43,18 +43,16 @@ Soy 100% adaptativo: hoy puede tocar un juego, mañana un exploit, pasado un dis
 
 -  Investigando **reversing**, **OSINT** y **DFIR**
 -  Construyendo mis propias herramientas y frameworks
-
+  
 ---
 
 ## 🔍 Lo que me atrae
 
-**Reversing** — Hacks de videojuegos: cheats, trainers
-**OSINT** — Reconocimiento, correlación de datos, investigación digital
-**Ciberseguridad** — Ofensiva / defensiva y análisis forense digital (`DFIR`)
-**Hardware hacking** — RFID/NFC con `Proxmark3` y otros aparatos reales
-**Desarrollo** — Herramientas y frameworks propios, sin atarme a un lenguaje
-
----
+**Reverse Engineering** — Game reversing, internals y análisis de bajo nivel  
+**OSINT** — Reconocimiento, correlación de datos e investigación digital  
+**Ciberseguridad** — Seguridad ofensiva/defensiva y análisis forense digital (`DFIR`)  
+**Hardware Hacking** — RFID/NFC, `Proxmark3` y dispositivos físicos  
+**Desarrollo** — Herramientas de seguridad, descubrimiento y automatización
 
 ## Stack &amp; Herramientas
 
