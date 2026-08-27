@@ -20,19 +20,21 @@
   </a>
 </p>
 
-<!--   security focus -->
+<!-- security focus -->
 <p align="center">
   <a href="https://github.com/nostraxiten">
     <img src="https://img.shields.io/badge/focus-Offensive%20Security-FF1493.svg?style=flat" alt="Offensive Security"/>
   </a>
   <br/>
   <a href="https://github.com/nostraxiten">
-    <img src="https://img.shields.io/badge/focus-Analista%20Forense-0e75b6.svg?style=flat" alt="Forensic Analyst
-"/>
+    <img src="https://img.shields.io/badge/focus-Defensive%20Security-22c55e.svg?style=flat" alt="Defensive Security"/>
+  </a>
+  <br/>
+  <a href="https://github.com/nostraxiten">
+    <img src="https://img.shields.io/badge/focus-Forensic%20Analyst-0e75b6.svg?style=flat" alt="Forensic Analyst"/>
   </a>
 </p>
 
----
 
 ## 🐱 Sobre mí
 
