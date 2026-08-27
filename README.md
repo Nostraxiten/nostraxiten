@@ -27,7 +27,8 @@
   </a>
   <br/>
   <a href="https://github.com/nostraxiten">
-    <img src="https://img.shields.io/badge/focus-Analista%20Forense-0e75b6.svg?style=flat" alt="Analista Forense"/>
+    <img src="https://img.shields.io/badge/focus-Analista%20Forense-0e75b6.svg?style=flat" alt="Forensic Analyst
+"/>
   </a>
 </p>
 
