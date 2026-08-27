@@ -34,7 +34,7 @@
 
 <!--   perfiles de seguridad · rellena tus usuarios y quita este comentario para que se muestren
 <p align="center">
-  <a href="https://tryhackme.com/p/TU_USUARIO"><img src="https://tryhackme-badges.s3.amazonaws.com/TU_USUARIO.png" alt="TryHackMe"/></a>
+  <a href="https://tryhackme.com/p/nostraxiten"><img src="https://tryhackme-badges.s3.amazonaws.com/TU_USUARIO.png" alt="TryHackMe"/></a>
   &nbsp;
   <a href="https://app.hackthebox.com/profile/TU_ID"><img src="https://img.shields.io/badge/Hack%20The%20Box-9FEF00?style=flat&logo=hackthebox&logoColor=black" alt="HackTheBox"/></a>
 </p>
