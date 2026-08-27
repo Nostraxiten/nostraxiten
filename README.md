@@ -83,16 +83,6 @@ graph LR;
     E-->E1[RFID / NFC · Proxmark3]
 ```
 
----
-
-## 📊 Estadísticas
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=nostraxiten&theme=react-dark&hide_border=true" alt="Gráfica de actividad"/>
-</p>
-
----
-
 ## 📂 Proyectos
 
 <details>
