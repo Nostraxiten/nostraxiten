@@ -9,10 +9,26 @@
 
 <!--   shields / badges row -->
 <p align="center">
-  <a href="https://github.com/nostraxiten"><img src="https://img.shields.io/badge/status-leyendo%20codigo-brightgreen.svg?style=flat" alt="status"/></a>
+  <a href="https://github.com/nostraxiten">
+    <img src="https://img.shields.io/badge/status-leyendo%20codigo-brightgreen.svg?style=flat" alt="status"/>
+  </a>
+  
   <img src="https://komarev.com/ghpvc/?username=nostraxiten&label=Visitas+al+perfil&color=0e75b6&style=flat" alt="visitas"/>
-  <a href="https://github.com/nostraxiten?tab=followers"><img src="https://img.shields.io/github/followers/nostraxiten?label=Followers&style=flat&color=blue&logo=github" alt="followers"/></a>
-  <a href="https://github.com/nostraxiten"><img src="https://img.shields.io/badge/focus-Offensive%20Security-FF1493.svg?style=flat" alt="focus"/></a>
+  
+  <a href="https://github.com/nostraxiten?tab=followers">
+    <img src="https://img.shields.io/github/followers/nostraxiten?label=Followers&style=flat&color=blue&logo=github" alt="followers"/>
+  </a>
+</p>
+
+<!--   security focus -->
+<p align="center">
+  <a href="https://github.com/nostraxiten">
+    <img src="https://img.shields.io/badge/focus-Offensive%20Security-FF1493.svg?style=flat" alt="Offensive Security"/>
+  </a>
+  <br/>
+  <a href="https://github.com/nostraxiten">
+    <img src="https://img.shields.io/badge/focus-Analista%20Forense-0e75b6.svg?style=flat" alt="Analista Forense"/>
+  </a>
 </p>
 
 
