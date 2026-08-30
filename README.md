@@ -116,7 +116,7 @@ Todo queda en mis repositorios. *(Te invito a explorarlos)*
 </p>
 
 <p align="center">
-  <sub>Perfil en constante construcción 🛠️</sub>
+  <sub>Perfil en constante construcción </sub>
 </p>
 
 <!--   footer wave -->
