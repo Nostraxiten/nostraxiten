@@ -36,7 +36,7 @@
 </p>
 
 
-## 🐱 Sobre mí
+##  Sobre mí
 
 Estudiando con enfoque en seguridad: **pentesting**, **forense** y entender cómo se rompen los sistemas por dentro.
 Soy 100% adaptativo: hoy puede tocar un juego, mañana un exploit, pasado un dispositivo físico.
@@ -46,7 +46,7 @@ Soy 100% adaptativo: hoy puede tocar un juego, mañana un exploit, pasado un dis
   
 ---
 
-## 🔍 Lo que me atrae
+##  Lo que me atrae
 
 **Reverse Engineering** — Game reversing, internals y análisis de bajo nivel  
 **OSINT** — Reconocimiento, correlación de datos e investigación digital  
@@ -84,7 +84,7 @@ graph LR;
     E-->E1[RFID / NFC · Proxmark3]
 ```
 
-## 📂 Proyectos
+##  Proyectos
 
 <details>
 <summary><strong>Ver qué tipo de cosas puedes encontrar</strong></summary>
@@ -94,13 +94,9 @@ Tengo una gran cantidad de proyectos en proceso y algunos ya terminados. Curioso
 
 Alguno puede ser un `Grabber de IP`, otros pueden ser `OSINT avanzado`, otros pueden ser `escaneo o análisis de red`, o un `cliente de cheats` para un juego...
 
-Todo queda en mis repositorios. *(Te invito a explorarlos)* 💗
+Todo queda en mis repositorios. *(Te invito a explorarlos)* 
 
 </details>
-
-## 📊 GitHub Contributions
-
-![GitHub Contributions](https://github-readme-activity-graph.vercel.app/graph?username=Nostraxiten&theme=github-compact)
 
 ---
 
@@ -113,7 +109,7 @@ Todo queda en mis repositorios. *(Te invito a explorarlos)* 💗
 
 ---
 
-> Y bueno... si disfrutas esto tanto como yo... me ayudaría mucho si me invitas a un café ☕
+> Y bueno... si disfrutas esto tanto como yo... me ayudaría mucho si me invitas a un café 
 
 <p align="center">
   <a href="https://github.com/sponsors/nostraxiten"><img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-ff69b4?style=for-the-badge&logo=github-sponsors" alt="Sponsor"/></a>
