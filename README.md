@@ -98,6 +98,10 @@ Todo queda en mis repositorios. *(Te invito a explorarlos)* 💗
 
 </details>
 
+## 📊 GitHub Contributions
+
+![GitHub Contributions](https://github-readme-activity-graph.vercel.app/graph?username=Nostraxiten&theme=github-compact)
+
 ---
 
 ##  Dónde encontrarme
