@@ -94,29 +94,20 @@ Tengo una gran cantidad de proyectos en proceso y algunos ya terminados. Curioso
 
 Alguno puede ser un `Grabber de IP`, otros pueden ser `OSINT avanzado`, otros pueden ser `escaneo o análisis de red`, o un `cliente de cheats` para un juego...
 
-Todo queda en mis repositorios. *(Te invito a explorarlos)*
+Todo queda en mis repositorios. *( Échales un ojo si es de tu interés)*
 
 </details>
 
 ---
 
-## Dónde encontrarme
-
-<p align="center">
-  <a href="https://github.com/nostraxiten"><img src="https://img.shields.io/badge/GitHub-1c1c1f?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-  <a href="https://www.tiktok.com/@nostraxiten"><img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok"/></a>
-</p>
-
----
-
-> Y bueno... si disfrutas esto tanto como yo... me ayudaría mucho si me invitas a un café
+> Y bueno... si disfrutas esto, me ayudaría mucho si me invitas a un café.
 
 <p align="center">
   <a href="https://github.com/sponsors/nostraxiten"><img src="https://img.shields.io/badge/Sponsor-1c1c1f?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="Sponsor"/></a>
 </p>
 
 <p align="center">
-  <sub>Perfil en constante construcción</sub>
+  <sub>Estudiando para mejorar el perfil</sub>
 </p>
 
 <!-- footer wave -->
