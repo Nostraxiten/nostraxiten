@@ -88,22 +88,41 @@ graph LR;
     E-->E1[RFID/NFC · Proxmark3]
 ```
 
-## Projects
+---
+
+## Top Projects
+
+**[cleaN](https://github.com/nostraxiten/cleaN)** &nbsp;![C#](https://img.shields.io/badge/-C%23-2b2b2f?style=flat&logo=csharp&logoColor=white)
+Open-source Windows system cleaner with preview-first safety, browser cleanup, unused app detection, and secure file deletion.
+
+**[TerminuX](https://github.com/nostraxiten/TerminuX)** &nbsp;![Shell](https://img.shields.io/badge/-Shell-2b2b2f?style=flat&logo=gnubash&logoColor=white)
+Lightweight visual mod for Termux — dark theme, syntax-highlighted nano, and a Kali-style prompt showing your Wi-Fi IP and git branch. One-command install.
+
+**[Root](https://github.com/nostraxiten/Root)** &nbsp;![Java](https://img.shields.io/badge/-Java-2b2b2f?style=flat&logo=openjdk&logoColor=white)
+Minecraft client build (mc 26.2, Fabric).
+
+**[php-freebase](https://github.com/nostraxiten/php-freebase)** &nbsp;![PHP](https://img.shields.io/badge/-PHP-2b2b2f?style=flat&logo=php&logoColor=white)
+Free, secure-by-default PHP starter base — admin panel, PDO with prepared statements, CSRF protection, and an empty MySQL schema ready to extend.
+
+**[LookTheShark](https://github.com/nostraxiten/LookTheShark)** &nbsp;![Python](https://img.shields.io/badge/-Python-2b2b2f?style=flat&logo=python&logoColor=white)
+Analyzes PCAP files to surface network activity, threats, sessions, and forensic findings fast.
+
+**[kaisen](https://github.com/nostraxiten/kaisen)** &nbsp;![Rust](https://img.shields.io/badge/-Rust-2b2b2f?style=flat&logo=rust&logoColor=white)
+Port scanning and service enumeration tool with DNS resolution and extra options — my Rust learning project.
 
 <details>
-<summary><strong>See what kind of things you can find</strong></summary>
+<summary><strong>More on my profile</strong></summary>
 <br>
 
-I have a large number of projects in progress, with some already completed. Curious stuff, to say the least...
-
-Some might be an `IP Grabber`, others might involve `advanced OSINT`, `network scanning or analysis`, or even a `cheat client` for a game...
-
-Everything is available in my repositories. *(Take a look if you're interested.)*
+Beyond the highlights above, I keep a steady flow of smaller and in-progress projects — OSINT tooling, network scanning experiments, and the occasional game-related build. Everything's public, so take a look if you're curious.
 
 </details>
 
+---
+
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=nostraxiten&theme=transparent&hide_border=true&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=adbac7&dates=adbac7&currStreakNum=adbac7&sideNums=adbac7" alt="GitHub streak stats for nostraxiten" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nostraxiten&layout=compact&theme=transparent&hide_border=true&title_color=58a6ff&text_color=adbac7&langs_count=8" alt="Top languages for nostraxiten" height="165" />
 </p>
 
 > And well... if you enjoy this, it would help me a lot if you bought me a coffee.
