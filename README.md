@@ -102,7 +102,9 @@ Everything is available in my repositories. *(Take a look if you're interested.)
 
 </details>
 
----
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=nostraxiten&theme=transparent&hide_border=true&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=adbac7&dates=adbac7&currStreakNum=adbac7&sideNums=adbac7" alt="GitHub streak stats for nostraxiten" height="165" />
+</p>
 
 > And well... if you enjoy this, it would help me a lot if you bought me a coffee.
 
