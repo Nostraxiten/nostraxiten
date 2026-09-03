@@ -125,8 +125,6 @@ Beyond the highlights above, I keep a steady flow of smaller and in-progress pro
      
 ---
      
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nostraxiten&layout=compact&theme=transparent&hide_border=true&title_color=58a6ff&text_color=adbac7&langs_count=8" alt="Top languages for nostraxiten" height="165" />
-</p>
 
 > And well... if you enjoy this, it would help me a lot if you bought me a coffee.
 
