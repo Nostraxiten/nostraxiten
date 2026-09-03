@@ -122,6 +122,9 @@ Beyond the highlights above, I keep a steady flow of smaller and in-progress pro
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=nostraxiten&theme=transparent&hide_border=true&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=adbac7&dates=adbac7&currStreakNum=adbac7&sideNums=adbac7" alt="GitHub streak stats for nostraxiten" height="165" />
+     
+---
+     
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nostraxiten&layout=compact&theme=transparent&hide_border=true&title_color=58a6ff&text_color=adbac7&langs_count=8" alt="Top languages for nostraxiten" height="165" />
 </p>
 
