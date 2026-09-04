@@ -2,6 +2,11 @@
      ║   README · Nostraxiten — profile under constant development  ║
      ╚══════════════════════════════════════════════════════════════╝ -->
 
+<!-- header wave -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3a3a3f,100:1c1c1f&height=200&section=header&text=Nostraxiten&fontSize=62&fontColor=ffffff&desc=Security%20Researcher%20%7C%20Reverse%20Engineer&descAlignY=76&descSize=18&fontAlignY=42&animation=fadeIn" alt="banner"/>
+</p>
+
 <!-- stats -->
 <p align="center">
   <a href="https://github.com/nostraxiten">
@@ -29,7 +34,6 @@
     <img src="https://img.shields.io/badge/focus-Forensic%20Analyst-0e75b6.svg?style=flat" alt="Forensic Analyst"/>
   </a>
 </p>
-
 ## About Me
 
 Studying with a focus on security: **pentesting**, **digital forensics**, and understanding how systems break from the inside out.
