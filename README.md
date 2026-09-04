@@ -15,12 +15,6 @@
   </a>
 </p>
 
-<!-- shields / badges row -->
-<p align="center">
-  <a href="https://github.com/nostraxiten">
-    <img src="https://img.shields.io/badge/status-Reading%20code-brightgreen.svg?style=flat" alt="status"/>
-  </a>
-
   <img src="https://komarev.com/ghpvc/?username=nostraxiten&label=Profile+Views&color=0e75b6&style=flat" alt="profile views"/>
 
   <a href="https://github.com/nostraxiten?tab=followers">
