@@ -2,9 +2,17 @@
      ║   README · Nostraxiten — profile under constant development  ║
      ╚══════════════════════════════════════════════════════════════╝ -->
 
-<!-- header wave -->
+<!-- stats -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3a3a3f,100:1c1c1f&height=200&section=header&text=Nostraxiten&fontSize=62&fontColor=ffffff&desc=Security%20Researcher%20%7C%20Reverse%20Engineer&descAlignY=76&descSize=18&fontAlignY=42&animation=fadeIn" alt="banner"/>
+  <a href="https://github.com/nostraxiten">
+    <img src="https://img.shields.io/badge/status-Reading%20code-brightgreen.svg?style=flat" alt="status"/>
+  </a>
+  <br/>
+  <img src="https://komarev.com/ghpvc/?username=nostraxiten&label=Profile+Views&color=0e75b6&style=flat" alt="profile views"/>
+  <br/>
+  <a href="https://github.com/nostraxiten?tab=followers">
+    <img src="https://img.shields.io/github/followers/nostraxiten?label=Followers&style=flat&color=blue&logo=github" alt="followers"/>
+  </a>
 </p>
 
 <!-- shields / badges row -->
