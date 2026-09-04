@@ -1,5 +1,5 @@
 <!-- ╔══════════════════════════════════════════════════════════════╗
-     ║   README · Nostraxiten — profile under constant development ║
+     ║   README · Nostraxiten — profile under constant development  ║
      ╚══════════════════════════════════════════════════════════════╝ -->
 
 <!-- header wave -->
@@ -10,7 +10,7 @@
 <!-- shields / badges row -->
 <p align="center">
   <a href="https://github.com/nostraxiten">
-    <img src="https://img.shields.io/badge/status-leyendo%20codigo-brightgreen.svg?style=flat" alt="status"/>
+    <img src="https://img.shields.io/badge/status-Reading%20code-brightgreen.svg?style=flat" alt="status"/>
   </a>
 
   <img src="https://komarev.com/ghpvc/?username=nostraxiten&label=Profile+Views&color=0e75b6&style=flat" alt="profile views"/>
