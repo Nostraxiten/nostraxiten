@@ -34,6 +34,7 @@
     <img src="https://img.shields.io/badge/focus-Forensic%20Analyst-0e75b6.svg?style=flat" alt="Forensic Analyst"/>
   </a>
 </p>
+
 ## About Me
 
 Studying with a focus on security: **pentesting**, **digital forensics**, and understanding how systems break from the inside out.
