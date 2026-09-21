@@ -22,17 +22,11 @@
 
 <!-- security focus -->
 <p align="center">
-  <a href="https://github.com/nostraxiten">
-    <img src="https://img.shields.io/badge/focus-Offensive%20Security-FF1493.svg?style=flat" alt="Offensive Security"/>
-  </a>
+  <img src="https://img.shields.io/badge/focus-Offensive%20Security-FF1493.svg?style=flat" alt="Offensive Security"/>
   <br/>
-  <a href="https://github.com/nostraxiten">
-    <img src="https://img.shields.io/badge/focus-Defensive%20Security-22c55e.svg?style=flat" alt="Defensive Security"/>
-  </a>
+  <img src="https://img.shields.io/badge/focus-Defensive%20Security-22c55e.svg?style=flat" alt="Defensive Security"/>
   <br/>
-  <a href="https://github.com/nostraxiten">
-    <img src="https://img.shields.io/badge/focus-Forensic%20Analyst-0e75b6.svg?style=flat" alt="Forensic Analyst"/>
-  </a>
+  <img src="https://img.shields.io/badge/focus-Forensic%20Analyst-0e75b6.svg?style=flat" alt="Forensic Analyst"/>
 </p>
 
 ## About Me
@@ -43,6 +37,12 @@ I am 100% adaptable: today it might be a game, tomorrow an exploit, and the day 
 
 - Researching **reverse engineering**, **OSINT**, and **DFIR**
 - Building my own security tools and frameworks
+
+---
+
+### Table of Contents
+
+[What Interests Me](#what-interests-me) · [Stack & Tools](#stack--tools) · [Areas of Work](#areas-of-work) · [Top Projects](#top-projects) · [Stats](#stats) · [Support](#support)
 
 ---
 
@@ -120,13 +120,17 @@ Beyond the highlights above, I keep a steady flow of smaller and in-progress pro
 
 ---
 
+## Stats
+
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=nostraxiten&theme=transparent&hide_border=true&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=adbac7&dates=adbac7&currStreakNum=adbac7&sideNums=adbac7" alt="GitHub streak stats for nostraxiten" height="165" />
-     
----
-     
+</p>
 
-> And well... if you enjoy this, it would help me a lot if you bought me a coffee.
+---
+
+## Support
+
+If you find any of this useful, a coffee always helps keep the projects going.
 
 <p align="center">
   <a href="https://github.com/sponsors/nostraxiten">
@@ -135,7 +139,7 @@ Beyond the highlights above, I keep a steady flow of smaller and in-progress pro
 </p>
 
 <p align="center">
-  <sub>Studying to improve the profile</sub>
+  <sub>Currently studying — this profile keeps evolving.</sub>
 </p>
 
 <!-- footer wave -->
