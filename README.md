@@ -89,26 +89,6 @@ graph LR;
 
 ---
 
-## Top Projects
-
-**[cleaN](https://github.com/nostraxiten/cleaN)** &nbsp;![C#](https://img.shields.io/badge/-C%23-2b2b2f?style=flat&logo=csharp&logoColor=white)
-Open-source Windows system cleaner with preview-first safety, browser cleanup, unused app detection, and secure file deletion.
-
-**[TerminuX](https://github.com/nostraxiten/TerminuX)** &nbsp;![Shell](https://img.shields.io/badge/-Shell-2b2b2f?style=flat&logo=gnubash&logoColor=white)
-Lightweight visual mod for Termux — dark theme, syntax-highlighted nano, and a Kali-style prompt showing your Wi-Fi IP and git branch. One-command install.
-
-**[Root](https://github.com/nostraxiten/Root)** &nbsp;![Java](https://img.shields.io/badge/-Java-2b2b2f?style=flat&logo=openjdk&logoColor=white)
-Minecraft client build (mc 26.2, Fabric).
-
-**[php-freebase](https://github.com/nostraxiten/php-freebase)** &nbsp;![PHP](https://img.shields.io/badge/-PHP-2b2b2f?style=flat&logo=php&logoColor=white)
-Free, secure-by-default PHP starter base — admin panel, PDO with prepared statements, CSRF protection, and an empty MySQL schema ready to extend.
-
-**[LookTheShark](https://github.com/nostraxiten/LookTheShark)** &nbsp;![Python](https://img.shields.io/badge/-Python-2b2b2f?style=flat&logo=python&logoColor=white)
-Analyzes PCAP files to surface network activity, threats, sessions, and forensic findings fast.
-
-**[kaisen](https://github.com/nostraxiten/kaisen)** &nbsp;![Rust](https://img.shields.io/badge/-Rust-2b2b2f?style=flat&logo=rust&logoColor=white)
-Port scanning and service enumeration tool with DNS resolution and extra options — my Rust learning project.
-
 <details>
 <summary><strong>More on my profile</strong></summary>
 <br>
