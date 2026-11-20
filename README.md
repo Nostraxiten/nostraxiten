@@ -44,6 +44,9 @@ graph LR
 | **Systems** | ![Linux](https://img.shields.io/badge/-Linux-0d0d0d?style=flat-square&logo=linux&logoColor=white) ![Debian](https://img.shields.io/badge/-Debian-0d0d0d?style=flat-square&logo=debian&logoColor=white) ![Kali](https://img.shields.io/badge/-Kali-0d0d0d?style=flat-square&logo=kalilinux&logoColor=white) ![Windows](https://img.shields.io/badge/-Windows-0d0d0d?style=flat-square&logo=windows&logoColor=white) ![Termux](https://img.shields.io/badge/-Termux-0d0d0d?style=flat-square&logo=termux&logoColor=white) |
 | **Security** | ![Nmap](https://img.shields.io/badge/-Nmap-0d0d0d?style=flat-square) ![Wireshark](https://img.shields.io/badge/-Wireshark-0d0d0d?style=flat-square&logo=wireshark&logoColor=white) ![Metasploit](https://img.shields.io/badge/-Metasploit-0d0d0d?style=flat-square) ![OWASP%20ZAP](https://img.shields.io/badge/-OWASP_ZAP-0d0d0d?style=flat-square&logo=owasp&logoColor=white) ![Scapy](https://img.shields.io/badge/-Scapy-0d0d0d?style=flat-square) |
 | **Infra** | ![Docker](https://img.shields.io/badge/-Docker-0d0d0d?style=flat-square&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/-Git-0d0d0d?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/-GitHub-0d0d0d?style=flat-square&logo=github&logoColor=white) |
+| Project | CVEs | Description |
+|---|---|---|
+| [**PHP2Shell**](https://github.com/Nostraxiten/PHP2shell) | ![CVE-2026-109618](https://img.shields.io/badge/CVE--2026--109618-critical?style=flat-square&color=1a1a1a) ![CVE-2026-109619](https://img.shields.io/badge/CVE--2026--109619-critical?style=flat-square&color=1a1a1a) | Unauthenticated RCE chain: OOM memory corruption + stale global state in PHP core. Two-stage ASLR bypass (Zend heap + libphp), session.upload_progress write primitive. Tested on Debian 12 / Apache mod_php |
 
 ---
 
