@@ -1,127 +1,74 @@
-<!-- ╔══════════════════════════════════════════════════════════════╗
-     ║   README · Nostraxiten — profile under constant development  ║
-     ╚══════════════════════════════════════════════════════════════╝ -->
-
-<!-- header wave -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3a3a3f,100:1c1c1f&height=200&section=header&text=Nostraxiten&fontSize=62&fontColor=ffffff&desc=Security%20Researcher%20%7C%20Reverse%20Engineer&descAlignY=76&descSize=18&fontAlignY=42&animation=fadeIn" alt="banner"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,100:3a3a3a&height=180&section=header&text=Nostraxiten&fontSize=54&fontColor=f5f5f5&desc=Cybersecurity%20%7C%20Digital%20Forensics%20%7C%20Pentesting&descAlignY=72&descSize=16&fontAlignY=38&animation=fadeIn" alt="banner"/>
 </p>
 
-<!-- stats -->
 <p align="center">
-  <a href="https://github.com/nostraxiten">
-    <img src="https://img.shields.io/badge/status-Reading%20code-brightgreen.svg?style=flat" alt="status"/>
-  </a>
-  <br/>
-  <img src="https://komarev.com/ghpvc/?username=nostraxiten&label=Profile+Views&color=0e75b6&style=flat" alt="profile views"/>
-  <br/>
-  <a href="https://github.com/nostraxiten?tab=followers">
-    <img src="https://img.shields.io/github/followers/nostraxiten?label=Followers&style=flat&color=blue&logo=github" alt="followers"/>
-  </a>
+  <img src="https://img.shields.io/badge/status-studying%20%7C%20building-2b2b2b?style=flat-square&labelColor=0d0d0d" alt="status"/>
+  <img src="https://komarev.com/ghpvc/?username=nostraxiten&label=Profile+Views&color=2b2b2b&style=flat-square" alt="profile views"/>
+  <img src="https://img.shields.io/github/followers/nostraxiten?label=Followers&style=flat-square&color=2b2b2b&labelColor=0d0d0d&logo=github&logoColor=white" alt="followers"/>
 </p>
-
-<!-- security focus -->
-<p align="center">
-  <img src="https://img.shields.io/badge/focus-Offensive%20Security-FF1493.svg?style=flat" alt="Offensive Security"/>
-  <br/>
-  <img src="https://img.shields.io/badge/focus-Defensive%20Security-22c55e.svg?style=flat" alt="Defensive Security"/>
-  <br/>
-  <img src="https://img.shields.io/badge/focus-Forensic%20Analyst-0e75b6.svg?style=flat" alt="Forensic Analyst"/>
-</p>
-
-## About Me
-
-Studying with a focus on security: **pentesting**, **digital forensics**, and understanding how systems break from the inside out.
-
-I am 100% adaptable: today it might be a game, tomorrow an exploit, and the day after that a physical device.
-
-- Researching **reverse engineering**, **OSINT**, and **DFIR**
-- Building my own security tools and frameworks
 
 ---
 
-### Table of Contents
+## About
 
-[What Interests Me](#what-interests-me) · [Stack & Tools](#stack--tools) · [Areas of Work](#areas-of-work) · [Top Projects](#top-projects) · [Stats](#stats) · [Support](#support)
+Vocational IT student (FP Informática) focused on **cybersecurity**, with a particular interest in **digital forensics (DFIR)** and **pentesting**. I build my own tools to understand systems from the inside, usually by breaking them first and rebuilding them properly afterward.
 
----
-
-## What Interests Me
-
-**Reverse Engineering** — Game reversing, internals, and low-level analysis
-
-**OSINT** — Reconnaissance, data correlation, and digital investigation
-
-**Cybersecurity** — Offensive/defensive security and digital forensics (`DFIR`)
-
-**Hardware Hacking** — RFID/NFC with `Proxmark3`
-
-**Development** — Security tools, discovery, and automation
-
-## Stack & Tools
-
-| Category | Technologies |
-|-----------|-------------|
-| **Systems** | ![Linux](https://img.shields.io/badge/-Linux-2b2b2f?style=flat&logo=linux&logoColor=white) ![Debian](https://img.shields.io/badge/-Debian-2b2b2f?style=flat&logo=debian&logoColor=white) ![Kali](https://img.shields.io/badge/-Kali-2b2b2f?style=flat&logo=kalilinux&logoColor=white) ![Windows](https://img.shields.io/badge/-Windows-2b2b2f?style=flat&logo=windows&logoColor=white) |
-| **Languages** | ![Python](https://img.shields.io/badge/-Python-2b2b2f?style=flat&logo=python&logoColor=white) ![Bash](https://img.shields.io/badge/-Bash-2b2b2f?style=flat&logo=gnubash&logoColor=white) ![PowerShell](https://img.shields.io/badge/-PowerShell-2b2b2f?style=flat&logo=powershell&logoColor=white) ![Batch](https://img.shields.io/badge/-Batch-2b2b2f?style=flat&logo=windowsterminal&logoColor=white) ![CSS3](https://img.shields.io/badge/-CSS3-2b2b2f?style=flat&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/-HTML5-2b2b2f?style=flat&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-2b2b2f?style=flat&logo=javascript&logoColor=white) ![C%23](https://img.shields.io/badge/-C%23-2b2b2f?style=flat&logo=csharp&logoColor=white) |
-| **Networking / Pentest** | ![Nmap](https://img.shields.io/badge/-Nmap-1c1c1f?style=flat) ![Wireshark](https://img.shields.io/badge/-Wireshark-2b2b2f?style=flat&logo=wireshark&logoColor=white) ![Metasploit](https://img.shields.io/badge/-Metasploit-1c1c1f?style=flat) ![Burp Suite](https://img.shields.io/badge/-Burp_Suite-1c1c1f?style=flat) ![OWASP ZAP](https://img.shields.io/badge/-OWASP_ZAP-1c1c1f?style=flat&logo=owasp&logoColor=white) ![Nikto](https://img.shields.io/badge/-Nikto-1c1c1f?style=flat) ![Hydra](https://img.shields.io/badge/-Hydra-1c1c1f?style=flat) ![DNSRecon](https://img.shields.io/badge/-DNSRecon-1c1c1f?style=flat) ![Maltego](https://img.shields.io/badge/-Maltego-1c1c1f?style=flat) |
-| **Hardware** | ![Proxmark3](https://img.shields.io/badge/-Proxmark3-1c1c1f?style=flat) |
-| **Environment** | ![Git](https://img.shields.io/badge/-Git-2b2b2f?style=flat&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/-GitHub-2b2b2f?style=flat&logo=github&logoColor=white) ![VS Code](https://img.shields.io/badge/-VS_Code-2b2b2f?style=flat&logo=visualstudiocode&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2b2b2f?style=flat&logo=docker&logoColor=white) ![Termux](https://img.shields.io/badge/-Termux-1c1c1f?style=flat&logo=termux&logoColor=white) ![ADB](https://img.shields.io/badge/-ADB-1c1c1f?style=flat&logo=android&logoColor=white) |
+- Currently in my second year, studying programming, networking theory, and English
+- Working toward a career in **Digital Forensics & Incident Response**
+- Self-taught in security tooling, scripting, and offensive/defensive techniques
 
 ---
 
 ## Areas of Work
 
 ```mermaid
-graph LR;
-    N[Nostraxiten]-->A[Reversing]
-    N-->B[OSINT]
-    N-->C[Pentesting]
-    N-->D[Forensics · DFIR]
-    N-->E[Hardware Hacking]
-    A-->A1[Anti-cheat]
-    A-->A2[Trainers and Cheats]
-    B-->B1[Reconnaissance]
-    C-->C1[Exploitation]
-    D-->D1[Evidence Analysis]
-    E-->E1[RFID/NFC · Proxmark3]
+graph LR
+    N[Nostraxiten] --> A[OSINT]
+    N --> B[Pentesting]
+    N --> C[Digital Forensics]
+    N --> D[Network Security]
+    A --> A1[Reconnaissance tooling]
+    B --> B1[Exploit research]
+    C --> C1[PCAP / evidence analysis]
+    D --> D1[LAN monitoring]
 ```
 
 ---
 
-<details>
-<summary><strong>More on my profile</strong></summary>
-<br>
+## Stack
 
-Beyond the highlights above, I keep a steady flow of smaller and in-progress projects — OSINT tooling, network scanning experiments, and the occasional game-related build. Everything's public, so take a look if you're curious.
+| Category | Tools |
+|---|---|
+| **Languages** | ![Python](https://img.shields.io/badge/-Python-0d0d0d?style=flat-square&logo=python&logoColor=white) ![Bash](https://img.shields.io/badge/-Bash-0d0d0d?style=flat-square&logo=gnubash&logoColor=white) ![PHP](https://img.shields.io/badge/-PHP-0d0d0d?style=flat-square&logo=php&logoColor=white) ![C%23](https://img.shields.io/badge/-C%23-0d0d0d?style=flat-square&logo=csharp&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-0d0d0d?style=flat-square&logo=javascript&logoColor=white) |
+| **Systems** | ![Linux](https://img.shields.io/badge/-Linux-0d0d0d?style=flat-square&logo=linux&logoColor=white) ![Debian](https://img.shields.io/badge/-Debian-0d0d0d?style=flat-square&logo=debian&logoColor=white) ![Kali](https://img.shields.io/badge/-Kali-0d0d0d?style=flat-square&logo=kalilinux&logoColor=white) ![Windows](https://img.shields.io/badge/-Windows-0d0d0d?style=flat-square&logo=windows&logoColor=white) ![Termux](https://img.shields.io/badge/-Termux-0d0d0d?style=flat-square&logo=termux&logoColor=white) |
+| **Security** | ![Nmap](https://img.shields.io/badge/-Nmap-0d0d0d?style=flat-square) ![Wireshark](https://img.shields.io/badge/-Wireshark-0d0d0d?style=flat-square&logo=wireshark&logoColor=white) ![Metasploit](https://img.shields.io/badge/-Metasploit-0d0d0d?style=flat-square) ![OWASP%20ZAP](https://img.shields.io/badge/-OWASP_ZAP-0d0d0d?style=flat-square&logo=owasp&logoColor=white) ![Scapy](https://img.shields.io/badge/-Scapy-0d0d0d?style=flat-square) |
+| **Infra** | ![Docker](https://img.shields.io/badge/-Docker-0d0d0d?style=flat-square&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/-Git-0d0d0d?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/-GitHub-0d0d0d?style=flat-square&logo=github&logoColor=white) |
 
-</details>
+---
+
+## Featured Projects
+
+| Project | Description |
+|---|---|
+| [**nostraxiten-framework**](https://github.com/Nostraxiten/nostraxiten-framework) | Modular security auditing, OSINT, and digital forensics (DFIR) framework with native reconnaissance and metadata-analysis modules |
+| [**LookTheShark**](https://github.com/Nostraxiten/LookTheShark) | Forensic tool that analyzes `.pcap`/`.pcapng` captures (no `tshark` dependency) — HTTP, TLS/JA3, DNS, and credential extraction |
+| [**NoxGuardian**](https://github.com/Nostraxiten/NoxGuardian) | Continuous home LAN monitoring: device presence tracking, session history, and open-port detection |
+| [**Termux-Tools**](https://github.com/Nostraxiten/Termux-Tools) | 47-tool OSINT/pentesting toolbox in pure Python (standard library only) — no root, no external binaries |
+| [**IPsearcher**](https://github.com/Nostraxiten/IPsearcher) | Discovers live hosts on authorized networks and checks open TCP ports, with false-positive filtering |
+| [**LookThePerson**](https://github.com/Nostraxiten/LookThePerson) | Turns a webcam into a real-time control interface using computer vision models |
+| [**NoxGrabber**](https://github.com/Nostraxiten/NoxGrabber) | Passive reconnaissance tool that collects device/OS information from a link, without credential theft |
+| [**TerminuX**](https://github.com/Nostraxiten/TerminuX) | Visual mod for Termux: dark theme, syntax-highlighted `nano`, Kali-style prompt |
+| [**php-freebase**](https://github.com/Nostraxiten/php-freebase) | Secure-by-default PHP starter base — admin panel, PDO prepared statements, CSRF protection |
 
 ---
 
 ## Stats
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=nostraxiten&theme=transparent&hide_border=true&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=adbac7&dates=adbac7&currStreakNum=adbac7&sideNums=adbac7" alt="GitHub streak stats for nostraxiten" height="165" />
-</p>
-
----
-
-## Support
-
-If you find any of this useful, a coffee always helps keep the projects going.
-
-<p align="center">
-  <a href="https://github.com/sponsors/nostraxiten">
-    <img src="https://img.shields.io/badge/Sponsor-1c1c1f?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="Sponsor"/>
-  </a>
+  <img src="https://streak-stats.demolab.com?user=nostraxiten&theme=dark&hide_border=true&background=0D0D0D&ring=8b949e&fire=8b949e&currStreakLabel=f5f5f5&sideLabels=8b949e&dates=8b949e&currStreakNum=f5f5f5&sideNums=f5f5f5" alt="GitHub streak stats" height="165"/>
 </p>
 
 <p align="center">
-  <sub>Currently studying — this profile keeps evolving.</sub>
-</p>
-
-<!-- footer wave -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3a3a3f,100:1c1c1f&height=120&section=footer" alt="footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,100:3a3a3a&height=100&section=footer" alt="footer"/>
 </p>
