@@ -12,7 +12,7 @@
 
 ## About
 
-Vocational IT student (FP Informática) focused on **cybersecurity**, with a particular interest in **digital forensics (DFIR)** and **pentesting**. I build my own tools to understand systems from the inside, usually by breaking them first and rebuilding them properly afterward.
+Vocational IT student focused on **cybersecurity**, with a particular interest in **digital forensics (DFIR)** and **pentesting**. I build my own tools to understand systems from the inside, usually by breaking them first and rebuilding them properly afterward.
 
 - Currently in my second year, studying programming, networking theory, and English
 - Working toward a career in **Digital Forensics & Incident Response**
