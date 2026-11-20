@@ -12,7 +12,7 @@
 
 ## About
 
-Vocational IT student focused on **cybersecurity**, with a particular interest in **digital forensics (DFIR)** and **pentesting**. I build my own tools to understand systems from the inside, usually by breaking them first and rebuilding them properly afterward.
+Vocational IT student focused on **cybersecurity**, with a particular interest in **digital forensics (DFIR)** and **pentesting**. I built my own tools, inspired by others already existing, to test the limits of code at a security level.
 - Working toward a career in **Digital Forensics & Incident Response**
 - Self-taught in security tooling, scripting, and offensive/defensive techniques
 
