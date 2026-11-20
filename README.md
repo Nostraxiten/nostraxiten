@@ -61,7 +61,6 @@ graph LR
 | [**NoxGrabber**](https://github.com/Nostraxiten/NoxGrabber) | Passive reconnaissance tool that collects device/OS information from a link, without credential theft |
 | [**TerminuX**](https://github.com/Nostraxiten/TerminuX) | Visual mod for Termux: dark theme, syntax-highlighted `nano`, Kali-style prompt |
 | [**php-freebase**](https://github.com/Nostraxiten/php-freebase) | Secure-by-default PHP starter base — admin panel, PDO prepared statements, CSRF protection |
-| Project | CVEs | Description |
 | [**PHP2Shell**](https://github.com/Nostraxiten/PHP2shell) | ![CVE-2026-109618](https://img.shields.io/badge/CVE--2026--109618-critical?style=flat-square&color=1a1a1a) ![CVE-2026-109619](https://img.shields.io/badge/CVE--2026--109619-critical?style=flat-square&color=1a1a1a) | Unauthenticated RCE chain: OOM memory corruption + stale global state in PHP core. Two-stage ASLR bypass (Zend heap + libphp), session.upload_progress write primitive. Tested on Debian 12 / Apache mod_php |
 
 ---
